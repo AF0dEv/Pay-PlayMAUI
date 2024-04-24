@@ -1,0 +1,209 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PayAndPlayMAUI
+build_property.ProjectDir = C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/LoginDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.LoginDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\LoginDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\LoginDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/MIP/CreateMusicasInPlayListsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.MIP.CreateMusicasInPlayListsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\MIP\CreateMusicasInPlayListsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\MIP\CreateMusicasInPlayListsPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/MIP/DeleteMusicasInPlayListsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.MIP.DeleteMusicasInPlayListsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\MIP\DeleteMusicasInPlayListsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\MIP\DeleteMusicasInPlayListsPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/MIP/EditMusicasInPlayListsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.MIP.EditMusicasInPlayListsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\MIP\EditMusicasInPlayListsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\MIP\EditMusicasInPlayListsPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/MIP/MusicasInPlayListsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.MIP.MusicasInPlayListsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\MIP\MusicasInPlayListsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\MIP\MusicasInPlayListsPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/Musicas/CreateMusicasDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.Musicas.CreateMusicasDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\Musicas\CreateMusicasDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\Musicas\CreateMusicasDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/Musicas/DeleteMusicasDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.Musicas.DeleteMusicasDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\Musicas\DeleteMusicasDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\Musicas\DeleteMusicasDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/Musicas/EditMusicasDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.Musicas.EditMusicasDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\Musicas\EditMusicasDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\Musicas\EditMusicasDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/Musicas/MusicasDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.Musicas.MusicasDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\Musicas\MusicasDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\Musicas\MusicasDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/PedidosDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.PedidosDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\PedidosDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\PedidosDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/PlayLists/CreatePlayListsDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.PlayLists.CreatePlayListsDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\PlayLists\CreatePlayListsDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\PlayLists\CreatePlayListsDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/PlayLists/DeletePlayListsDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.PlayLists.DeletePlayListsDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\PlayLists\DeletePlayListsDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\PlayLists\DeletePlayListsDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/PlayLists/EditPlayListsDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.PlayLists.EditPlayListsDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\PlayLists\EditPlayListsDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\PlayLists\EditPlayListsDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/PlayLists/PlayListsDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.PlayLists.PlayListsDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\PlayLists\PlayListsDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\PlayLists\PlayListsDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/ProfileDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.ProfileDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\ProfileDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\ProfileDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/QRCodePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.QRCodePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\QRCodePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\QRCodePage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/RegisterDjPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.RegisterDjPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DJ\RegisterDjPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DJ\RegisterDjPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/SHARED/LandingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.SHARED.LandingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SHARED\LandingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SHARED\LandingPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/SHARED/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.SHARED.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SHARED\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SHARED\LoginPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/SHARED/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.SHARED.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SHARED\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SHARED\RegisterPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/USER/LoginUserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.USER.LoginUserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\USER\LoginUserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\USER\LoginUserPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/USER/PedidosUser/MIPPedidosUserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.USER.PedidosUser.MIPPedidosUserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\USER\PedidosUser\MIPPedidosUserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\USER\PedidosUser\MIPPedidosUserPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/USER/PedidosUser/PagamentoUserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.USER.PedidosUser.PagamentoUserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\USER\PedidosUser\PagamentoUserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\USER\PedidosUser\PagamentoUserPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/USER/PedidosUser/PedidosUserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.USER.PedidosUser.PedidosUserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\USER\PedidosUser\PedidosUserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\USER\PedidosUser\PedidosUserPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/USER/PedidosUser/PlayListsPedidosUserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.USER.PedidosUser.PlayListsPedidosUserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\USER\PedidosUser\PlayListsPedidosUserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\USER\PedidosUser\PlayListsPedidosUserPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/USER/ProfileUserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.USER.ProfileUserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\USER\ProfileUserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\USER\ProfileUserPage.xaml
+
+[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/USER/RegisterUserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.USER.RegisterUserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\USER\RegisterUserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\USER\RegisterUserPage.xaml
