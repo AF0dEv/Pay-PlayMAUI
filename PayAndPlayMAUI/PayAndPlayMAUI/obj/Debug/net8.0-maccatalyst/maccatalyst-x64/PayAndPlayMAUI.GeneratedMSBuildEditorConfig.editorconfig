@@ -4,12 +4,20 @@ build_property.EnableSingleFileAnalyzer =
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = false
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PayAndPlayMAUI
 build_property.ProjectDir = C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\
@@ -147,12 +155,6 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.RegisterDjPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DJ\RegisterDjPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DJ\RegisterDjPage.xaml
-
-[C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/SHARED/LandingPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.SHARED.LandingPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\SHARED\LandingPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\SHARED\LandingPage.xaml
 
 [C:/Users/afons/source/repos/AF0dEv/PayAndPlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/SHARED/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

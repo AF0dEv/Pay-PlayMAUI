@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>222585CDE11DB3453B38816349D288F9F001F9B5DE40266AFBACBCFDDD217488</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>280EA1CF093F050AB17383DA94016AE5A231309848265521B1AA4EE40E45B90A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.payandplaymaui_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.payandplaymaui_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.payandplaymaui</RegisteredPackageID>
@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-24T13:38:04.176</Modified>
+      <Modified>2024-04-28T15:12:07.189</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-24T13:38:04.026</Modified>
+      <Modified>2024-04-28T15:12:07.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PayAndPlayMAUI.runtimeconfig.json">
       <PackagePath>PayAndPlayMAUI.runtimeconfig.json</PackagePath>
@@ -43,15 +43,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PayAndPlayMAUI.dll">
       <PackagePath>PayAndPlayMAUI.dll</PackagePath>
-      <Modified>2024-04-24T13:38:03.292</Modified>
+      <Modified>2024-04-28T15:12:06.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PayAndPlayMAUI.exe</PackagePath>
-      <Modified>2024-04-24T13:38:03.295</Modified>
+      <Modified>2024-04-28T15:12:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-04-24T13:32:00.475</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenmobileSplashScreen.scale-100.png">
+      <PackagePath>splashscreenmobileSplashScreen.scale-100.png</PackagePath>
+      <Modified>2024-04-24T15:44:39.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenmobileSplashScreen.scale-125.png">
+      <PackagePath>splashscreenmobileSplashScreen.scale-125.png</PackagePath>
+      <Modified>2024-04-24T15:44:39.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenmobileSplashScreen.scale-150.png">
+      <PackagePath>splashscreenmobileSplashScreen.scale-150.png</PackagePath>
+      <Modified>2024-04-24T15:44:39.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenmobileSplashScreen.scale-200.png">
+      <PackagePath>splashscreenmobileSplashScreen.scale-200.png</PackagePath>
+      <Modified>2024-04-24T15:44:39.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenmobileSplashScreen.scale-400.png">
+      <PackagePath>splashscreenmobileSplashScreen.scale-400.png</PackagePath>
+      <Modified>2024-04-24T15:44:39.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
@@ -83,187 +103,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-04-24T13:32:10.293</Modified>
+      <Modified>2024-04-24T15:43:23.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.672</Modified>
+      <Modified>2024-04-24T15:43:23.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.691</Modified>
+      <Modified>2024-04-24T15:43:23.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.708</Modified>
+      <Modified>2024-04-24T15:43:23.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.736</Modified>
+      <Modified>2024-04-24T15:43:23.991</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.844</Modified>
+      <Modified>2024-04-24T15:43:24.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.396</Modified>
+      <Modified>2024-04-24T15:43:23.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.401</Modified>
+      <Modified>2024-04-24T15:43:23.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.421</Modified>
+      <Modified>2024-04-24T15:43:23.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.405</Modified>
+      <Modified>2024-04-24T15:43:23.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.410</Modified>
+      <Modified>2024-04-24T15:43:23.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.367</Modified>
+      <Modified>2024-04-24T15:43:23.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.371</Modified>
+      <Modified>2024-04-24T15:43:23.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.392</Modified>
+      <Modified>2024-04-24T15:43:23.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.375</Modified>
+      <Modified>2024-04-24T15:43:23.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.380</Modified>
+      <Modified>2024-04-24T15:43:23.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.309</Modified>
+      <Modified>2024-04-24T15:43:23.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.314</Modified>
+      <Modified>2024-04-24T15:43:23.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.320</Modified>
+      <Modified>2024-04-24T15:43:23.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.325</Modified>
+      <Modified>2024-04-24T15:43:23.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.333</Modified>
+      <Modified>2024-04-24T15:43:23.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.337</Modified>
+      <Modified>2024-04-24T15:43:23.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.342</Modified>
+      <Modified>2024-04-24T15:43:23.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.362</Modified>
+      <Modified>2024-04-24T15:43:23.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.346</Modified>
+      <Modified>2024-04-24T15:43:23.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.351</Modified>
+      <Modified>2024-04-24T15:43:23.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.493</Modified>
+      <Modified>2024-04-24T15:43:23.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.501</Modified>
+      <Modified>2024-04-24T15:43:23.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.511</Modified>
+      <Modified>2024-04-24T15:43:23.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.524</Modified>
+      <Modified>2024-04-24T15:43:23.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.550</Modified>
+      <Modified>2024-04-24T15:43:23.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.454</Modified>
+      <Modified>2024-04-24T15:43:23.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.459</Modified>
+      <Modified>2024-04-24T15:43:23.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.465</Modified>
+      <Modified>2024-04-24T15:43:23.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.472</Modified>
+      <Modified>2024-04-24T15:43:23.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.485</Modified>
+      <Modified>2024-04-24T15:43:23.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.425</Modified>
+      <Modified>2024-04-24T15:43:23.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.430</Modified>
+      <Modified>2024-04-24T15:43:23.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.435</Modified>
+      <Modified>2024-04-24T15:43:23.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.440</Modified>
+      <Modified>2024-04-24T15:43:23.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.449</Modified>
+      <Modified>2024-04-24T15:43:23.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.559</Modified>
+      <Modified>2024-04-24T15:43:23.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.569</Modified>
+      <Modified>2024-04-24T15:43:23.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.582</Modified>
+      <Modified>2024-04-24T15:43:23.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.603</Modified>
+      <Modified>2024-04-24T15:43:23.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-04-24T13:32:10.657</Modified>
+      <Modified>2024-04-24T15:43:23.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
@@ -287,7 +307,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\source\repos\AF0dEv\PayAndPlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PayAndPlayMAUI.deps.json">
       <PackagePath>PayAndPlayMAUI.deps.json</PackagePath>
-      <Modified>2024-04-24T13:38:03.678</Modified>
+      <Modified>2024-04-28T15:03:29.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

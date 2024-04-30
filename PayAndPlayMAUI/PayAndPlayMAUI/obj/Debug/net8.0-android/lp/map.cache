@@ -1,5 +1,6 @@
 GoogleGson.dll
 Jsr305Binding.dll
+Microsoft.Identity.Client.dll
 Microsoft.Maui.Controls.Compatibility.dll
 Microsoft.Maui.Controls.dll
 Microsoft.Maui.Controls.Xaml.dll

@@ -10,7 +10,7 @@
 
     <ShellContent
         Title="PayAndPlay"
-        ContentTemplate="{DataTemplate views:LandingPage}"
+        ContentTemplate="{DataTemplate views:LoginPage}"
         Route="LandingPage" />
 
 </Shell>
