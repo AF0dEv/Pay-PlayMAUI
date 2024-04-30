@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\afons\\source\\repos\\AF0dEv\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI.csproj": {}
+    "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\afons\\source\\repos\\AF0dEv\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI.csproj": {
+    "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\afons\\source\\repos\\AF0dEv\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI.csproj",
+        "projectUniqueName": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI.csproj",
         "projectName": "PayAndPlayMAUI",
-        "projectPath": "C:\\Users\\afons\\source\\repos\\AF0dEv\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI.csproj",
+        "projectPath": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI.csproj",
         "packagesPath": "C:\\Users\\afons\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\afons\\source\\repos\\AF0dEv\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\obj\\",
+        "outputPath": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

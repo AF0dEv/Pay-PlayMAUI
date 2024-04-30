@@ -5,11 +5,11 @@ namespace PayAndPlayMAUI.Views.SHARED;
 
 public partial class LoginPage : ContentPage
 {
-    public PayAndPlayService service { get; set; }
+    public DJsService service { get; set; }
     public LoginPage()
     {
         InitializeComponent();
-        this.service = new PayAndPlayService();
+        this.service = new DJsService();
     }
 
     private async void btnDJs_Clicked(object sender, EventArgs e)

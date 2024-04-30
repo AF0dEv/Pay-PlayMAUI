@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R2WIi19+sAsQhhyEzHnsJMShFT/34ZAngeRJxGDV2FLGODN3JiifihsK3urZX/x6OWhg4Lh/MXL0zRb9m3I4mA==",
+  "dgSpecHash": "N2W6lxnZNLwrWkShO+YIqcQY0I+b8rx5FCcuttJNfUZdaPr19Usu8Cyndm13S7bm4NR7h/01e1ThaCYxcdTM0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\afons\\source\\repos\\AF0dEv\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI.csproj",
+  "projectFilePath": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\afons\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\afons\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
