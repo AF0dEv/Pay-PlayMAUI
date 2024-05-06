@@ -5,7 +5,7 @@
   <Properties>
     <DisplayName>PayAndPlayMAUI</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>
-    <Logo>appiconStoreLogo.png</Logo>
+    <Logo>splashscreen1StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
@@ -16,14 +16,14 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="$targetentrypoint$">
-      <uap:VisualElements DisplayName="PayAndPlayMAUI" Description="PayAndPlayMAUI" Square150x150Logo="appiconMediumTile.png" Square44x44Logo="appiconLogo.png" BackgroundColor="transparent">
-        <uap:DefaultTile Square71x71Logo="appiconSmallTile.png" Wide310x150Logo="appiconWideTile.png" Square310x310Logo="appiconLargeTile.png" ShortName="PayAndPlayMAUI">
+      <uap:VisualElements DisplayName="PayAndPlayMAUI" Description="PayAndPlayMAUI" Square150x150Logo="splashscreen1MediumTile.png" Square44x44Logo="splashscreen1Logo.png" BackgroundColor="transparent">
+        <uap:DefaultTile Square71x71Logo="splashscreen1SmallTile.png" Wide310x150Logo="splashscreen1WideTile.png" Square310x310Logo="splashscreen1LargeTile.png" ShortName="PayAndPlayMAUI">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
-        <uap:SplashScreen Image="splashscreenmobileSplashScreen.png" />
+        <uap:SplashScreen Image="splashscreenSplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>

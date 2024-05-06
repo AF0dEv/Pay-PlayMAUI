@@ -1,7 +1,7 @@
 @string/appbar_scrolling_view_behavior;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\157\jl\res\layout\fragment_backstack.xml
 @string/appbar_scrolling_view_behavior;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\157\jl\res\layout\navigationlayout.xml
-adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\splashscreen1.xml
+adaptive-icon;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\splashscreen1_round.xml
 alpha;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\155\jl\res\anim\enterfromleft.xml
 alpha;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\155\jl\res\anim\exittoleft.xml
 alpha;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\157\jl\res\anim\nav_default_enter_anim.xml
@@ -15,8 +15,8 @@ androidx.fragment.app.FragmentContainerView;C:\Users\afons\OneDrive\Documentos\G
 androidx.fragment.app.FragmentContainerView;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\157\jl\res\layout\navigationlayout.xml
 attr;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\154\jl\res\values\attrs.xml
 attr;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\157\jl\res\values\attr.xml
-background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\splashscreen1.xml
+background;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\splashscreen1_round.xml
 bitmap;obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 bitmap;obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 cache-path;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\158\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
@@ -32,8 +32,8 @@ declare-styleable;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndP
 declare-styleable;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\157\jl\res\values\attr.xml
 external-cache-path;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\158\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\158\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
-foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\splashscreen1.xml
+foreground;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\splashscreen1_round.xml
 item;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\154\jl\res\values\styles.xml
 item;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\157\jl\res\drawable\maui_splash.xml
 item;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\157\jl\res\values\styles.xml
@@ -44,8 +44,8 @@ layer-list;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI
 layer-list;obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 layer-list;obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 microsoft.maui.controls.platform.compatibility.ShellFlyoutLayout;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\155\jl\res\layout\flyoutcontent.xml
-monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
-monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\splashscreen1.xml
+monochrome;obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\splashscreen1_round.xml
 paths;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\158\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 resources;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\154\jl\res\values\attrs.xml
 resources;C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-android\lp\154\jl\res\values\styles.xml

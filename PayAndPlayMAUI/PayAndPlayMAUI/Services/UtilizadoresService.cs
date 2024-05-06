@@ -1,36 +1,35 @@
 ﻿using Newtonsoft.Json;
 using PayAndPlayMAUI.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace PayAndPlayMAUI.Services
 {
     public class UtilizadoresService
-    { 
+    {
+        private HttpClient client { get; set; }
+        private HttpResponseMessage response { get; set; }
         private string baseUrl { get; set; }
         public UtilizadoresService()
         {
+            // IEFP
             this.baseUrl = DeviceInfo.Platform ==
                 DevicePlatform.Android ? "http://10.30.16.17:8000/api/" : "http://localhost:8000/api/";
+            //// Home
+            //this.baseUrl = DeviceInfo.Platform ==
+            //    DevicePlatform.Android ? "http://192.168.1.76:8000/api/" : "http://localhost:8000/api/";
+            this.client = new HttpClient { BaseAddress = new Uri(this.baseUrl) };
+            this.client.Timeout = TimeSpan.FromSeconds(60);
+            this.response = new HttpResponseMessage();
         }
-        public async Task<List<UtilizadorModel>> getUtilizadores()
+        public async Task<List<UtilizadorModel>> GetUtilizadores()
         {
             try
             {
                 List<UtilizadorModel> utilizadores = new List<UtilizadorModel>();
 
-                string fullURL = this.baseUrl + "Utilizadores/getUtilizadores";
+                string endpoint = "Utilizadores/getUtilizadores";
 
-                HttpClient client = new HttpClient();
-
-                client.BaseAddress = new Uri(fullURL);
-
-                client.Timeout = TimeSpan.FromSeconds(60);
-
-                HttpResponseMessage response = await client.GetAsync("");
+                this.response = await client.GetAsync(endpoint);
 
 
                 if (response.IsSuccessStatusCode)
@@ -46,21 +45,15 @@ namespace PayAndPlayMAUI.Services
                 return null;
             }
         }
-        public async Task<UtilizadorModel> getUtilizador(int UtilizadorId)
+        public async Task<UtilizadorModel> GetUtilizadorByEmail(string email)
         {
             try
             {
                 UtilizadorModel utilizador = new UtilizadorModel();
 
-                string fullURL = this.baseUrl + $"Utilizadores/getUtilizador/{UtilizadorId}";
+                string endpoint = $"Utilizadores/getUtilizadorByEmail/{email}";
 
-                HttpClient client = new HttpClient();
-
-                client.BaseAddress = new Uri(fullURL);
-
-                client.Timeout = TimeSpan.FromSeconds(60);
-
-                HttpResponseMessage response = await client.GetAsync("");
+                this.response = await client.GetAsync(endpoint);
 
 
                 if (response.IsSuccessStatusCode)
@@ -76,51 +69,42 @@ namespace PayAndPlayMAUI.Services
                 return null;
             }
         }
-        public async Task<UtilizadorModel> addDJ(UtilizadorModel utilizador)
+        public async Task<UtilizadorModel> GetUtilizador(int UtilizadorId)
         {
             try
             {
+                UtilizadorModel utilizador = new UtilizadorModel();
 
-                string fullURL = this.baseUrl + $"Utilizadores/addUtilizador";
-                string utilizadorInfoAsJson = JsonConvert.SerializeObject(utilizador);
-                StringContent utilizadorStringContent = new StringContent(utilizadorInfoAsJson, Encoding.UTF8, "application/json");
+                string endpoint =$"Utilizadores/getUtilizador/{UtilizadorId}";
 
-                HttpClient client = new HttpClient();
-
-                client.BaseAddress = new Uri(fullURL);
-
-                client.Timeout = TimeSpan.FromSeconds(60);
-
-                HttpResponseMessage response = await client.PostAsync("", utilizadorStringContent);
+                this.response = await client.GetAsync(endpoint);
 
 
                 if (response.IsSuccessStatusCode)
                 {
-                    return await Task.FromResult(utilizador);
+                    string content = await response.Content.ReadAsStringAsync();
+                    utilizador = JsonConvert.DeserializeObject<UtilizadorModel>(content);
                 }
 
-                return await Task.FromResult(new UtilizadorModel());
+                return await Task.FromResult(utilizador);
             }
             catch (Exception)
             {
-                throw null;
+                return null;
             }
         }
-        public async Task<UtilizadorModel> editUtilizador(UtilizadorModel utilizador)
+        public async Task<UtilizadorModel> AddUtilizador(UtilizadorModel utilizador)
         {
             try
             {
-                string fullURL = this.baseUrl + $"Utilizadores/editUtilizador/{utilizador.ID}";
+
+                string endpoint ="Utilizadores/addUtilizador";
+
                 string utilizadorInfoAsJson = JsonConvert.SerializeObject(utilizador);
+
                 StringContent utilizadorStringContent = new StringContent(utilizadorInfoAsJson, Encoding.UTF8, "application/json");
 
-                HttpClient client = new HttpClient();
-
-                client.BaseAddress = new Uri(fullURL);
-
-                client.Timeout = TimeSpan.FromSeconds(60);
-
-                HttpResponseMessage response = await client.PutAsync("", utilizadorStringContent);
+                this.response = await client.PostAsync(endpoint, utilizadorStringContent);
 
 
                 if (response.IsSuccessStatusCode)
@@ -135,19 +119,38 @@ namespace PayAndPlayMAUI.Services
                 return null;
             }
         }
-        public async Task<bool> deleteUtilizador(UtilizadorModel utilizador)
+        public async Task<UtilizadorModel> EditUtilizador(UtilizadorModel utilizador)
         {
             try
             {
-                string fullURL = this.baseUrl + $"Utilizadores/deleteUtilizador/{utilizador.ID}";
+                string endpoint = $"Utilizadores/editUtilizador/{utilizador.ID}";
 
-                HttpClient client = new HttpClient();
+                string utilizadorInfoAsJson = JsonConvert.SerializeObject(utilizador);
 
-                client.BaseAddress = new Uri(fullURL);
+                StringContent utilizadorStringContent = new StringContent(utilizadorInfoAsJson, Encoding.UTF8, "application/json");
 
-                client.Timeout = TimeSpan.FromSeconds(60);
+                this.response = await client.PutAsync(endpoint, utilizadorStringContent);
 
-                HttpResponseMessage response = await client.DeleteAsync("");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return await Task.FromResult(utilizador);
+                }
+
+                return await Task.FromResult(new UtilizadorModel());
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        public async Task<bool> DeleteUtilizador(UtilizadorModel utilizador)
+        {
+            try
+            {
+                string endpoint = $"Utilizadores/deleteUtilizador/{utilizador.ID}";
+
+                this.response = await client.DeleteAsync(endpoint);
 
 
                 if (response.IsSuccessStatusCode)

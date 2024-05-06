@@ -9,9 +9,9 @@
         public int MusicaId { get; set; }
         public int PlayListId { get; set; }
 
-        //// Navigation Properties
-        //public virtual Musica? Musica { get; set; }
-        //public virtual PlayList? PlayList { get; set; }
+        // Navigation Properties
+        public virtual MusicaModel? Musica { get; set; }
+        public virtual PlayListModel? PlayList { get; set; }
 
         //// Navigation Properties
         //public virtual ICollection<Pedido>? Pedidos { get; set; }

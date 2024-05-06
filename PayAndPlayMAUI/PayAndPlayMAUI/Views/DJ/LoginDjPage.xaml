@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
              x:Class="PayAndPlayMAUI.Views.DJ.LoginDjPage"
              Title="Login Dj">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="loginicon.png"
+                SemanticProperties.Description="Icon Login"
+                HeightRequest="150"
+                WidthRequest="150"
+                HorizontalOptions="Center" />
+
+            <VerticalStackLayout>
+                <Label Text="Bem-Vindo DJ" FontSize="28" TextColor="Gray" HorizontalTextAlignment="Center" />
+                <Label Text="Fazer Login na sua conta" FontSize="20" TextColor="Gray" HorizontalTextAlignment="Center" />
+            </VerticalStackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
+                    <Image Source="user.png" HeightRequest="20" WidthRequest="20"/>
+                </Frame>
+                <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="txtEmail" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="E-mail" Keyboard="Email" />
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
+                    <Image Source="padlock.png" HeightRequest="20" WidthRequest="20"/>
+                </Frame>
+                <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="txtPassword" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" IsPassword="True"/>
+                </Frame>
+            </StackLayout>
+
+            <Button x:Name="btnLogin" Text="Login" WidthRequest="120" CornerRadius="25" HorizontalOptions="Center" BackgroundColor="BlueViolet" Clicked="btnLogin_Clicked_1"/>
+            <ActivityIndicator x:Name="loadingIndicator" IsRunning="False" IsVisible="False" HorizontalOptions="Center" />
+            <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+                <Label Text="Não tem conta ?" TextColor="Gray"/>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Criar conta" TextColor="Blue" TextDecorations="Underline">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>

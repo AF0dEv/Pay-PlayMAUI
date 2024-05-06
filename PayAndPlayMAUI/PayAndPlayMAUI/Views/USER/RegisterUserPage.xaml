@@ -2,11 +2,102 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PayAndPlayMAUI.Views.USER.RegisterUserPage"
-             Title="Register User">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Register User"
+             Shell.NavBarIsVisible="False">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center"
+            >
+
+            <Image
+                Source="loginicon.png"
+                SemanticProperties.Description="Icon Login"
+                HeightRequest="150"
+                WidthRequest="150"
+                HorizontalOptions="Center" />
+
+            <VerticalStackLayout>
+                <Label Text="Bem-Vindo User" FontSize="28" TextColor="Gray" HorizontalTextAlignment="Center" />
+                <Label Text="Fazer Registo da sua conta" FontSize="20" TextColor="Gray" HorizontalTextAlignment="Center" />
+            </VerticalStackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" TranslationX="-5" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
+                    <Image Source="user.png" HeightRequest="20" WidthRequest="20"/>
+                </Frame>
+                <StackLayout>
+                    <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" WidthRequest="250" HorizontalOptions="FillAndExpand">
+                        <Entry x:Name="txtUserName" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Username" Keyboard="Text" />
+                    </Frame>
+                    <Label x:Name="lblUserName" TextColor="Red" TranslationY="15" IsVisible="False"/>
+                </StackLayout>
+            </StackLayout>
+                
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" TranslationX="-5" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
+                    <Image Source="email.png" HeightRequest="20" WidthRequest="20"/>
+                </Frame>
+                <StackLayout>
+                    <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" WidthRequest="250" HorizontalOptions="FillAndExpand">
+                        <Entry x:Name="txtEmail" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Email"  Keyboard="Email"/>
+                    </Frame>
+                    <Label x:Name="lblEmail" TextColor="Red" TranslationY="15" IsVisible="False"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="55" TranslationX="-5" WidthRequest="55" CornerRadius="25">
+                    <Image Source="padlock.png" HeightRequest="20" WidthRequest="20"/>
+                </Frame>
+                <StackLayout>
+                    <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" WidthRequest="250" TranslationY="10"  HorizontalOptions="FillAndExpand">
+                        <Entry x:Name="txtPassword" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" IsPassword="True"/>
+                    </Frame>
+                    <Label x:Name="lblPassword" TextColor="Red" TranslationY="12" IsVisible="False"/>
+                </StackLayout>
+                <Frame ZIndex="1" HasShadow="True" TranslationX="5" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
+                    <ImageButton Source="hide.png" HeightRequest="25" WidthRequest="25" Clicked="ImageButton_Clicked"></ImageButton>
+                </Frame>
+            </StackLayout>
+
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White"
+                       HeightRequest="55" TranslationX="-5" 
+                       WidthRequest="55" CornerRadius="25">
+                    <Image Source="confirmpadlock.png" HeightRequest="20" WidthRequest="20"/>
+                </Frame>
+                <StackLayout>
+                    <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" WidthRequest="250" TranslationY="10"  HorizontalOptions="FillAndExpand">
+                        <Entry x:Name="txtConfirmPassword" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Confirmar Password" IsPassword="True" TextChanged="txtConfirmPassword_TextChanged"/>
+                    </Frame>
+                    <Label x:Name="lblConfirmPassword" TextColor="Red" TranslationY="12" />
+                </StackLayout>
+                <Frame ZIndex="1" HasShadow="True" TranslationX="5" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
+                    <ImageButton Source="hide.png" HeightRequest="25" WidthRequest="25" Clicked="ImageButton_Clicked_1"></ImageButton>
+                </Frame>
+            </StackLayout>
+
+            <Button  x:Name="btnRegistar" Text="Registar" WidthRequest="120" CornerRadius="25" HorizontalOptions="Center" BackgroundColor="MidnightBlue" Clicked="btnRegistar_Clicked"/>
+            <ActivityIndicator x:Name="loadingIndicator" IsRunning="False" IsVisible="False" HorizontalOptions="Center" />
+
+            <StackLayout Orientation="Horizontal" Spacing="5" HorizontalOptions="Center">
+                <Label Text="Já tem conta?" TextColor="Gray"/>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Fazer Login" TextColor="Blue" TextDecorations="Underline">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>

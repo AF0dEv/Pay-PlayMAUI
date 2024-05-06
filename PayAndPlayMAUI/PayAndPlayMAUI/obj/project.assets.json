@@ -125754,6 +125754,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
+      "Microsoft.Maui.Essentials >= 8.0.21",
       "Microsoft.NET.ILLink.Tasks >= 8.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
       "Newtonsoft.Json >= 13.0.3"
@@ -125767,6 +125768,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
+      "Microsoft.Maui.Essentials >= 8.0.21",
       "Microsoft.NET.ILLink.Tasks >= 8.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
       "Newtonsoft.Json >= 13.0.3"
@@ -125780,6 +125782,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
+      "Microsoft.Maui.Essentials >= 8.0.21",
       "Microsoft.NET.ILLink.Tasks >= 8.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
       "Newtonsoft.Json >= 13.0.3"
@@ -125793,6 +125796,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.21",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.21",
+      "Microsoft.Maui.Essentials >= 8.0.21",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2",
       "Newtonsoft.Json >= 13.0.3"
     ]
@@ -125899,6 +125903,10 @@
             "target": "Package",
             "version": "[8.0.21, )"
           },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.21, )"
+          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
@@ -125971,6 +125979,10 @@
             "version": "[8.0.21, )"
           },
           "Microsoft.Maui.Controls.Compatibility": {
+            "target": "Package",
+            "version": "[8.0.21, )"
+          },
+          "Microsoft.Maui.Essentials": {
             "target": "Package",
             "version": "[8.0.21, )"
           },
@@ -126049,6 +126061,10 @@
             "target": "Package",
             "version": "[8.0.21, )"
           },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.21, )"
+          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
@@ -126122,6 +126138,10 @@
             "version": "[8.0.21, )"
           },
           "Microsoft.Maui.Controls.Compatibility": {
+            "target": "Package",
+            "version": "[8.0.21, )"
+          },
+          "Microsoft.Maui.Essentials": {
             "target": "Package",
             "version": "[8.0.21, )"
           },

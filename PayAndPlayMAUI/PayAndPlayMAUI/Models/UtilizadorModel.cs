@@ -13,8 +13,8 @@
         // Foreign Key
         public int PerfilId { get; set; }
 
-        //// Navigation Property
-        //public virtual Perfil? Perfil { get; set; }
+        // Navigation Property
+        public virtual PerfilModel? Perfil { get; set; }
 
         //// Navigation Properties
         //public virtual ICollection<Pedido>? Pedidos { get; set; }

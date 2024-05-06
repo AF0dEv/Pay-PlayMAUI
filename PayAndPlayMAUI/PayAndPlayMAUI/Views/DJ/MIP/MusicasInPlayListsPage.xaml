@@ -2,11 +2,30 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PayAndPlayMAUI.Views.DJ.MIP.MusicasInPlayListsPage"
-             Title="Musicas In PlayLists Dj">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Musicas In PlayLists Dj"
+             FlowDirection="LeftToRight">
+    <Grid>
+        <CollectionView x:Name="MusicasInPlayList"
+                        Margin="10">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+
+                    <Border HeightRequest="150"
+                            Padding="10"
+                            BackgroundColor="AliceBlue"
+                            StrokeShape="RoundRectangle 10">
+
+                        <VerticalStackLayout Spacing="10">
+
+                            <Label Text="{Binding ID}"></Label>
+                            <Label Text="{Binding Musica.Nome}" 
+                                    FontSize="15" FontAttributes="Bold"></Label>
+                            <Label Text="{Binding PlayList.Nome}"></Label>
+                        </VerticalStackLayout>
+                    </Border>
+                    
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
 </ContentPage>

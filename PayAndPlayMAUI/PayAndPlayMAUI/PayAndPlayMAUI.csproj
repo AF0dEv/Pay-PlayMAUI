@@ -39,14 +39,16 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<!-- Fix this, iccn and splash not wproking-->
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-
+		<MauiIcon Include="Resources\AppIcon\splashscreen1.png" 
+				  ForegroundFile="Resources\AppIcon\appicon_removebg.png" 
+				  BaseSize="1200, 1200" Color="#E4E8A0" />
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splashscreenmobile.svg" Color="#512BD4" BaseSize="128,128" />
-
-		<!-- Images -->
+		<!--Ver porque nao aparece o icone em cima do background-->
+		<MauiSplashScreen Include="Resources\Splash\splashscreen.png"
+		  ForegroundFile="Resources\Splash\appicon_removebg1.png"
+		  BaseSize="1200, 1200" Color="#E4E8A0" />
+		
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
@@ -58,6 +60,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="TriggerAction\**" />
+	  <Compile Remove="TriggerAction\**" />
+	  <EmbeddedResource Remove="TriggerAction\**" />
+	  <MauiCss Remove="TriggerAction\**" />
+	  <MauiXaml Remove="TriggerAction\**" />
+	  <None Remove="TriggerAction\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Remove="Views\SHARED\ILoginView.cs" />
 	</ItemGroup>
 
@@ -66,13 +77,18 @@
 	  <None Remove="Resources\Images\bgHome.jpg" />
 	  <None Remove="Resources\Images\bgUserProfile.jpg" />
 	  <None Remove="Resources\Images\bgUserRegLog.jpg" />
+	  <None Remove="Resources\Images\confirmpadlock.png" />
+	  <None Remove="Resources\Images\email.png" />
+	  <None Remove="Resources\Images\hide.png" />
 	  <None Remove="Resources\Images\LoginIcon.png" />
 	  <None Remove="Resources\Images\MaresVivas.jpeg" />
 	  <None Remove="Resources\Images\msudo.png" />
 	  <None Remove="Resources\Images\NosAlive.png" />
 	  <None Remove="Resources\Images\novaEra.jpg" />
+	  <None Remove="Resources\Images\padlock.png" />
 	  <None Remove="Resources\Images\rockinrio.jpg" />
 	  <None Remove="Resources\Images\RollingLoud.png" />
+	  <None Remove="Resources\Images\user.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -90,6 +106,7 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.21" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.21" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.21" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>

@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
              x:Class="PayAndPlayMAUI.Views.SHARED.LoginPage"
              Title="Login">
 
     <Grid>
-        <Button x:Name="btnDJs"
-                Text="Get All DJs"
-                Clicked="btnDJs_Clicked"
-                VerticalOptions="Center">
-        </Button>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="300"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="137.13"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="137.13">
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="1" Text="I AM..."  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="50" FontAttributes="Bold" FontAutoScalingEnabled="True"></Label>
+
+        <StackLayout Grid.Row="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="DJ" FontSize="50" FontAttributes="Bold" FontAutoScalingEnabled="True" HorizontalOptions="Center" />
+            <ImageButton Source="bgdjreglog" Grid.Row="1" Grid.Column="1" Clicked="ImageButton_Clicked" WidthRequest="150" HeightRequest="150" Aspect="AspectFill" HorizontalOptions="Center">
+                <ImageButton.Clip>
+                    <EllipseGeometry RadiusX="75" RadiusY="75" Center="75,75"></EllipseGeometry>
+                </ImageButton.Clip>
+            </ImageButton>
+        </StackLayout>
+
+        <StackLayout Grid.Row="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="USER" FontSize="50" FontAttributes="Bold" FontAutoScalingEnabled="True" HorizontalOptions="Center" />
+            <ImageButton Source="bguserreglog.jpg" Clicked="ImageButton_Clicked_1" WidthRequest="150" HeightRequest="150" Aspect="AspectFill">
+                <ImageButton.Clip>
+                    <EllipseGeometry RadiusX="75" RadiusY="75" Center="75,75"></EllipseGeometry>
+                </ImageButton.Clip>
+            </ImageButton>
+        </StackLayout>
     </Grid>
 </ContentPage>

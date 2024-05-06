@@ -3,48 +3,134 @@
   "WorkspaceRootPath": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\services\\listagensservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\services\\listagensservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\dj\\registerdjpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\registerdjpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\services\\utilizadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\user\\registeruserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\user\\registeruserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\payandplaymaui\\views\\dj\\registerdjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\registerdjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\payandplaymaui\\views\\user\\registeruserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\user\\registeruserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\payandplaymaui\\views\\user\\loginuserpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\user\\loginuserpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\payandplaymaui\\services\\utilizadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\services\\utilizadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\payandplaymaui\\views\\user\\loginuserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\user\\loginuserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 304,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ListagensService.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Services\\ListagensService.cs",
-              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Services\\ListagensService.cs",
-              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Services\\ListagensService.cs",
-              "RelativeToolTip": "PayAndPlayMAUI\\Services\\ListagensService.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAswFEAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T13:41:19.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UtilizadoresService.cs",
               "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Services\\UtilizadoresService.cs",
               "RelativeDocumentMoniker": "PayAndPlayMAUI\\Services\\UtilizadoresService.cs",
               "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Services\\UtilizadoresService.cs",
               "RelativeToolTip": "PayAndPlayMAUI\\Services\\UtilizadoresService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwIkAAABMAAAA",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAmwHYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T13:26:15.042Z",
+              "WhenOpened": "2024-05-06T14:43:37.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginUserPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\LoginUserPage.xaml.cs",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\USER\\LoginUserPage.xaml.cs",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\LoginUserPage.xaml.cs",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\USER\\LoginUserPage.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA3wEAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T12:08:55.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterUserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\RegisterUserPage.xaml",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\USER\\RegisterUserPage.xaml",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\RegisterUserPage.xaml",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\USER\\RegisterUserPage.xaml",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAAGYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-04T20:03:38.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterUserPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\RegisterUserPage.xaml.cs",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\USER\\RegisterUserPage.xaml.cs",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\RegisterUserPage.xaml.cs",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\USER\\RegisterUserPage.xaml.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwFcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T20:29:11.748Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginUserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\LoginUserPage.xaml",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\USER\\LoginUserPage.xaml",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\LoginUserPage.xaml",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\USER\\LoginUserPage.xaml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-04T18:49:59.553Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 304,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterDjPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\RegisterDjPage.xaml.cs",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\RegisterDjPage.xaml.cs",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\RegisterDjPage.xaml.cs",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\RegisterDjPage.xaml.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAADwv6wAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T14:46:48.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterDjPage.xaml",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\RegisterDjPage.xaml",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\RegisterDjPage.xaml",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\RegisterDjPage.xaml",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\RegisterDjPage.xaml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwEkAAADFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-06T14:45:53.157Z"
             }
           ]
         }

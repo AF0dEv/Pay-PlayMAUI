@@ -9,8 +9,8 @@
         // Foreign Key
         public int DJId { get; set; }
 
-        //// Navigation Property
-        //public virtual DJ? DJ { get; set; }
+        // Navigation Property
+        public virtual DjModel? DJ { get; set; }
 
         //// Navigation Properties
         //public virtual ICollection<MusicaInPlayList>? MusicasInPlayLists { get; set; }

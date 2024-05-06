@@ -13,9 +13,9 @@
         public int DJId { get; set; }
         public int MusicaInPlayListId { get; set; }
 
-        //// Navigation Properties
-        //public virtual Utilizador? Utilizador { get; set; }
-        //public virtual DJ? DJ { get; set; }
-        //public virtual MusicaInPlayList? MusicaInPlayList { get; set; }
+        // Navigation Properties
+        public virtual UtilizadorModel? Utilizador { get; set; }
+        public virtual DjModel? DJ { get; set; }
+        public virtual MusicaInPlayListModel? MusicaInPlayList { get; set; }
     }
 }
