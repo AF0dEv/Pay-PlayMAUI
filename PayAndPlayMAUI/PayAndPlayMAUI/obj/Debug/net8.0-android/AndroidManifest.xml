@@ -10,7 +10,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-permission android:name="android.permission.VIBRATE" />
-  <application android:allowBackup="true" android:usesCleartextTraffic="true" android:supportsRtl="true" android:label="PayAndPlay" android:icon="@mipmap/splashscreen1" android:name="crc64e6be1a45aa241223.MainApplication" android:debuggable="true" android:extractNativeLibs="true">
+  <application android:allowBackup="true" android:usesCleartextTraffic="true" android:supportsRtl="true" android:label="PayAndPlay" android:icon="@mipmap/appiconbg" android:name="crc64e6be1a45aa241223.MainApplication" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:theme="@style/Maui.SplashTheme" android:name="crc64e6be1a45aa241223.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

@@ -14,7 +14,7 @@
   <uses-permission android:name="android.permission.VIBRATE" />
   <permission android:name="payandplay.limited.payandplay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="payandplay.limited.payandplay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-  <application android:name="crc64e6be1a45aa241223.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/splashscreen1" android:label="PayAndPlay" android:supportsRtl="true" android:usesCleartextTraffic="true">
+  <application android:name="crc64e6be1a45aa241223.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appiconbg" android:label="PayAndPlay" android:supportsRtl="true" android:usesCleartextTraffic="true">
     <activity android:name="crc64e6be1a45aa241223.MainActivity" android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:theme="@style/Maui.SplashTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

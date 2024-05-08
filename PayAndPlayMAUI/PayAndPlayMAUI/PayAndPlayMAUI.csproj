@@ -40,14 +40,9 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\splashscreen1.png" 
-				  ForegroundFile="Resources\AppIcon\appicon_removebg.png" 
-				  BaseSize="1200, 1200" Color="#E4E8A0" />
+		<MauiIcon Include="Resources\AppIcon\appiconbg.png" ForeGroundFile="Resources\AppIcon\appicon_removebg.png" BaseSize="1200, 1200" Color="#E4E8A0"/>
 		<!-- Splash Screen -->
-		<!--Ver porque nao aparece o icone em cima do background-->
-		<MauiSplashScreen Include="Resources\Splash\splashscreen.png"
-		  ForegroundFile="Resources\Splash\appicon_removebg1.png"
-		  BaseSize="1200, 1200" Color="#E4E8A0" />
+		<MauiSplashScreen Include="Resources\Splash\splashscreen.png" Color="#E4E8A0" />
 		
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
@@ -73,6 +68,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Platforms\Android\Resources\drawable\splashscreen.png" />
+	  <None Remove="Platforms\Android\Resources\drawable\splash_background.xml" />
+	  <None Remove="Resources\AppIcon\appicon_removebg.png" />
 	  <None Remove="Resources\Images\bgDJRegLog.jpg" />
 	  <None Remove="Resources\Images\bgHome.jpg" />
 	  <None Remove="Resources\Images\bgUserProfile.jpg" />
@@ -89,6 +87,11 @@
 	  <None Remove="Resources\Images\rockinrio.jpg" />
 	  <None Remove="Resources\Images\RollingLoud.png" />
 	  <None Remove="Resources\Images\user.png" />
+	  <None Remove="Resources\Splash\splashscreen.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiSplashScreen Include="Resources\Splash\splashscreen.png" />
 	</ItemGroup>
 
 	<ItemGroup>

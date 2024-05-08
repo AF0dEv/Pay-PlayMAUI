@@ -15,4 +15,4 @@ File=Resources\Images\padlock.png;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAp
 File=Resources\Images\rockinrio.jpg;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
 File=Resources\Images\rollingloud.png;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
 File=Resources\Images\user.png;Link=;BaseSize=;Resize=;TintColor=;Color=;IsAppIcon=;ForegroundScale=;ForegroundFile=
-File=Resources\AppIcon\splashscreen1.png;Link=;BaseSize=1200, 1200;Resize=;TintColor=;Color=#E4E8A0;IsAppIcon=True;ForegroundScale=;ForegroundFile=Resources\AppIcon\appicon_removebg.png
+File=Resources\AppIcon\appiconbg.png;Link=;BaseSize=1200, 1200;Resize=;TintColor=;Color=#E4E8A0;IsAppIcon=True;ForegroundScale=;ForegroundFile=Resources\AppIcon\appicon_removebg.png

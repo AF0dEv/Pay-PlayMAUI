@@ -8,6 +8,8 @@ animation\nav_default_pop_enter_anim;animation\nav_default_pop_enter_anim
 animation\nav_default_pop_exit_anim;animation\nav_default_pop_exit_anim
 drawable\maui_splash;drawable\maui_splash
 drawable\maui_splash_image;drawable\maui_splash_image
+drawable\splash_background;drawable\splash_background
+drawable\splashscreen;drawable\splashscreen
 layout\drawer_layout;layout\drawer_layout
 layout\flyoutcontent;compatibility\Android\Resources\layout\flyoutcontent
 layout\fragment_backstack;layout\fragment_backstack
