@@ -15,15 +15,15 @@ namespace PayAndPlayMAUI.Services
             //// Home
             //this.baseUrl = DeviceInfo.Platform ==
             //    DevicePlatform.Android ? "http://192.168.1.76:8000/api/" : "http://localhost:8000/api/";
+            
             this.client = new HttpClient { BaseAddress = new Uri(this.baseUrl) };
             this.client.Timeout = TimeSpan.FromSeconds(60);
             this.response = new HttpResponseMessage();
 
         }
 
-
         // LISTAGENS DJ
-        public async Task<decimal> CalculoSadoDJ(int DjId)
+        public async Task<decimal> CalculoSaldoDJ(int DjId)
         {
             try
             {
@@ -103,8 +103,7 @@ namespace PayAndPlayMAUI.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    string content = await response.Content.ReadAsStringAsync();
-                    musicaMenosPedida = JsonConvert.DeserializeObject<string>(content);
+                    musicaMenosPedida = await response.Content.ReadAsStringAsync();
                 }
 
                 return await Task.FromResult(musicaMenosPedida);
@@ -125,8 +124,7 @@ namespace PayAndPlayMAUI.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    string content = await response.Content.ReadAsStringAsync();
-                    musicaMaisPedida = JsonConvert.DeserializeObject<string>(content);
+                    musicaMaisPedida = await response.Content.ReadAsStringAsync();
                 }
 
                 return await Task.FromResult(musicaMaisPedida);
@@ -147,13 +145,12 @@ namespace PayAndPlayMAUI.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    string content = await response.Content.ReadAsStringAsync();
-                    utilizadorMenosPedidos = JsonConvert.DeserializeObject<string>(content);
+                    utilizadorMenosPedidos = await response.Content.ReadAsStringAsync();
                 }
 
                 return await Task.FromResult(utilizadorMenosPedidos);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return null;
             }
@@ -169,8 +166,7 @@ namespace PayAndPlayMAUI.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    string content = await response.Content.ReadAsStringAsync();
-                    utilizadorMaisPedidos = JsonConvert.DeserializeObject<string>(content);
+                    utilizadorMaisPedidos = await response.Content.ReadAsStringAsync();
                 }
 
                 return await Task.FromResult(utilizadorMaisPedidos);
@@ -191,8 +187,7 @@ namespace PayAndPlayMAUI.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    string content = await response.Content.ReadAsStringAsync();
-                    utilizadorMenosGastos = JsonConvert.DeserializeObject<string>(content);
+                    utilizadorMenosGastos = await response.Content.ReadAsStringAsync();
                 }
 
                 return await Task.FromResult(utilizadorMenosGastos);
@@ -213,8 +208,7 @@ namespace PayAndPlayMAUI.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    string content = await response.Content.ReadAsStringAsync();
-                    utilizadorMaisGastos = JsonConvert.DeserializeObject<string>(content);
+                    utilizadorMaisGastos = await response.Content.ReadAsStringAsync();
                 }
 
                 return await Task.FromResult(utilizadorMaisGastos);
@@ -224,7 +218,6 @@ namespace PayAndPlayMAUI.Services
                 return null;
             }
         }
-        
         
         // LISTAGENS UTILIZADOR
         public async Task<Dictionary<string, decimal>> ListarGastosMesPorDj(int data, int UtilizadorId)

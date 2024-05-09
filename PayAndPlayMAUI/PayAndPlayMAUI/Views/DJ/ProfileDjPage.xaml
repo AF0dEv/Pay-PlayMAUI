@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PayAndPlayMAUI.Views.DJ.ProfileDjPage"
+             xmlns:mc="clr-namespace:PayAndPlayMAUI.MicroChart"
              Shell.NavBarIsVisible="False"
              Title="Profile ">
 
@@ -20,12 +21,12 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Label TranslationX="10" Text="PROFILE" FontAttributes="Bold" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Grid.Column="0"/>
+            <Label x:Name="lblProfile" TranslationX="10" FontAttributes="Bold" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Grid.Column="0"/>
 
-            <Button TranslationX="-10" Text="Levantar" FontAttributes="Bold" FontSize="11" HeightRequest="34" WidthRequest="75" CornerRadius="25" VerticalOptions="Center" HorizontalOptions="EndAndExpand" BackgroundColor="Green" Grid.Column="1" />
+            <Button x:Name="btnLevantar" TranslationX="-10" Text="Levantar" FontAttributes="Bold" FontSize="11" HeightRequest="34" WidthRequest="75" CornerRadius="25" VerticalOptions="Center" HorizontalOptions="EndAndExpand" BackgroundColor="Green" Grid.Column="1" Clicked="btnLevantar_Clicked"/>
 
             <Frame Padding="0" Grid.Column="2" BorderColor="Transparent" BackgroundColor="Transparent">
-                <Label  TranslationX="-10" FontAttributes="Bold" VerticalOptions="Center" FontSize="Large" Text="9,274,686$" HorizontalOptions="EndAndExpand"></Label>
+                <Label x:Name="lblSaldo" TranslationX="-10" FontAttributes="Bold" VerticalOptions="Center" FontSize="Large" Text="9,274,686$" HorizontalOptions="EndAndExpand"></Label>
             </Frame>
         </Grid>
 
@@ -47,9 +48,9 @@
                                 <RowDefinition Height="Auto" />
                             </Grid.RowDefinitions>
 
-                            <Label Text="MUSICA MAIS PEDIDA" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
+                            <Label Text="MUSICA MAIS PEDIDA" FontSize="Large" FontAttributes="Bold" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
 
-                            <Label x:Name="lblMusicaMaisPedida" Text="*musicamaispedida*"  HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
+                            <Label x:Name="lblMusicaMaisPedida" TextColor="Green" FontAttributes="Italic" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
                         </Grid>
                     </Border>
                 </Grid>
@@ -66,9 +67,9 @@
                                 <RowDefinition Height="Auto" />
                             </Grid.RowDefinitions>
 
-                            <Label Text="UTILIZADOR COM MAIS PEDIDOS" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
+                            <Label Text="UTILIZADOR COM MAIS PEDIDOS"  FontAttributes="Bold" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
 
-                            <Label x:Name="lblUtilizadorMaisPedidos" Text="*musicamaispedida*"  HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
+                            <Label x:Name="lblUtilizadorMaisPedidos" TextColor="Green" FontAttributes="Italic" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
                         </Grid>
                     </Border>
                 </Grid>
@@ -85,9 +86,9 @@
                                 <RowDefinition Height="Auto" />
                             </Grid.RowDefinitions>
 
-                            <Label Text="UTILIZADOR COM MAIS GASTOS" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
+                            <Label Text="UTILIZADOR COM MAIS GASTOS"  FontAttributes="Bold" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
 
-                            <Label x:Name="lblUtilizadorMaisGastos" Text="*musicamaispedida*"  HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
+                            <Label x:Name="lblUtilizadorMaisGastos" TextColor="Green" FontAttributes="Italic" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
                         </Grid>
                     </Border>
                 </Grid>
@@ -106,9 +107,9 @@
                                 <RowDefinition Height="Auto" />
                             </Grid.RowDefinitions>
 
-                            <Label Text="MUSICA MENOS PEDIDA" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
+                            <Label Text="MUSICA MENOS PEDIDA" FontAttributes="Bold" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
 
-                            <Label x:Name="lblMusicaMenosPedida" Text="*musicamaispedida*"  HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
+                            <Label x:Name="lblMusicaMenosPedida" TextColor="Red" FontAttributes="Italic" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
                         </Grid>
                     </Border>
                 </Grid>
@@ -125,9 +126,9 @@
                                 <RowDefinition Height="Auto" />
                             </Grid.RowDefinitions>
 
-                            <Label Text="UTILIZADOR COM MENOS PEDIDOS" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
+                            <Label Text="UTILIZADOR COM MENOS PEDIDOS" FontAttributes="Bold" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
 
-                            <Label x:Name="lblUtilizadorMenosPedidos" Text="*musicamaispedida*"  HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
+                            <Label x:Name="lblUtilizadorMenosPedidos" TextColor="Red" FontAttributes="Italic" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
                         </Grid>
                     </Border>
                 </Grid>
@@ -144,26 +145,35 @@
                                 <RowDefinition Height="Auto" />
                             </Grid.RowDefinitions>
 
-                            <Label Text="UTILIZADOR COM MENOS GASTOS" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
+                            <Label Text="UTILIZADOR COM MENOS GASTOS" FontAttributes="Bold" FontSize="Large" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Grid.Row="0"/>
 
-                            <Label x:Name="lblUtilizadorMenosGastos" Text="*musicamaispedida*"  HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
+                            <Label x:Name="lblUtilizadorMenosGastos" TextColor="Red" FontAttributes="Italic" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="1"/>
                         </Grid>
                     </Border>
                 </Grid>
 
                 <StackLayout>
                     <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Grid.Row="1" Width="*" />
+                            <ColumnDefinition Grid.Row="1" Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <RadioButton x:Name="rbtMes" GroupName="chartType" Content="Saldo Mensal" CheckedChanged="rbtMes_CheckedChanged" Grid.Column="0"/>
-                        <RadioButton x:Name="rbtPeriodo" GroupName="chartType" Content="Saldo Periodo" CheckedChanged="rbtPeriodo_CheckedChanged" Grid.Column="1"/>
-                        
-                        <Label x:Name="lblMes" Text="Escolha o Mês"/>
-                        <DatePicker x:Name="dpMes" Format="MMMM yyyy" IsVisible="True" DateSelected="dpMes_DateSelected" Grid.Row="1" Grid.Column="0"/>
+                        <Label x:Name="lblGanhos" Text="GANHOS" TextColor="Green" FontSize="25" HorizontalOptions="CenterAndExpand" Grid.Row="0" Grid.ColumnSpan="2" Margin="0, 25, 0, 0"/>
+
+                        <RadioButton x:Name="rbtMes" GroupName="chartType" Content="Saldo Mensal" IsChecked="False" CheckedChanged="rbtMes_CheckedChanged" Grid.Row="1" Grid.Column="0"/>
+                        <RadioButton x:Name="rbtPeriodo" GroupName="chartType" Content="Saldo Periodo" IsChecked="False" HorizontalOptions="EndAndExpand" Margin="0,0,10,0" CheckedChanged="rbtPeriodo_CheckedChanged" Grid.Row="1" Grid.Column="1"/>
+
+                        <Label x:Name="lblMes" Margin="0,30,0,0" FontAttributes="Bold" FontSize="20" Text="Escolha o Mês" IsVisible="Collapse" Grid.Row="2" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                        <DatePicker x:Name="dpMes" Format="MMMM yyyy" IsVisible="Collapse" HorizontalOptions="CenterAndExpand" DateSelected="dpMes_DateSelected" Grid.Row="3" Grid.ColumnSpan="2"/>
                     </Grid>
+                    
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
@@ -175,17 +185,36 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Mês Inicial" Grid.Row="0" Grid.Column="0"/>
-                        <Label Text="Mês Final" Grid.Row="0" Grid.Column="1"/>
+                        <Label x:Name="lblMesInicial" Margin="50,30,0,0" FontAttributes="Bold" FontSize="20" Text="Mês Inicial" IsVisible="Collapse" Grid.Row="0" Grid.Column="0"/>
+                        <Label x:Name="lblMesFinal" Margin="50,30,0,0" FontAttributes="Bold" FontSize="20" Text="Mês Final" Grid.Row="0" IsVisible="Collapse" Grid.Column="1"/>
 
-                        <DatePicker x:Name="dpMesInicio" Format="MMMM yyyy" IsVisible="True" DateSelected="dpMesInicio_DateSelected" Grid.Row="1" Grid.Column="0"/>
-                        <DatePicker x:Name="dpMesFinal" Format="MMMM yyyy" IsVisible="True" DateSelected="dpMesFinal_DateSelected" Grid.Row="1" Grid.Column="1"/>
+                        <DatePicker x:Name="dpMesInicio" Format="MMMM yyyy" IsVisible="Collapse" Grid.Row="1" Grid.Column="0"/>
+                        <DatePicker x:Name="dpMesFinal" Format="MMMM yyyy" IsVisible="Collapse" Grid.Row="1" Grid.Column="1"/>
 
-                        <Button x:Name="btnShowChart" Text="Show Chart" Grid.Row="2" Grid.ColumnSpan="2"/>
+                        <Button x:Name="btnMostrarGanhos" IsVisible="Collapse" Clicked="btnMostrarGanhos_Clicked" Text="Mostrar Ganhos" Grid.Row="2" Grid.ColumnSpan="2" WidthRequest="150" CornerRadius="25"/>
                     </Grid>
+                    
+                    <Grid x:Name="gridChart">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
 
+                        <mc:ChartView x:Name="ChartMes"
+                                      HeightRequest="300"
+                                      Grid.Row="0"
+                                      VerticalOptions="FillAndExpand" 
+                                      HorizontalOptions="FillAndExpand"
+                                      IsVisible="Collapse"/>
+
+                        <mc:ChartView x:Name="ChartPeriodo"
+                                      HeightRequest="300"
+                                      Grid.Row="1"
+                                      VerticalOptions="FillAndExpand" 
+                                      HorizontalOptions="FillAndExpand"
+                                      IsVisible="Collapse"/>
+                    </Grid>
                 </StackLayout>
-
             </StackLayout>
         </ScrollView>
 

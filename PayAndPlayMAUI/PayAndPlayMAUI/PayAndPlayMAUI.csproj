@@ -40,7 +40,7 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appiconbg.png" ForeGroundFile="Resources\AppIcon\appicon_removebg.png" BaseSize="1200, 1200" Color="#E4E8A0"/>
+		<MauiIcon Include="Resources\AppIcon\appiconbg.png" ForeGroundFile="Resources\AppIcon\appicon_removebg.png" BaseSize="1200, 1200" Color="#E4E8A0" />
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splashscreen.png" Color="#E4E8A0" />
 		
@@ -71,6 +71,11 @@
 	  <None Remove="Platforms\Android\Resources\drawable\splashscreen.png" />
 	  <None Remove="Platforms\Android\Resources\drawable\splash_background.xml" />
 	  <None Remove="Resources\AppIcon\appicon_removebg.png" />
+	  <None Remove="Resources\Icons\homeicon.png" />
+	  <None Remove="Resources\Icons\mipicon.png" />
+	  <None Remove="Resources\Icons\moneyicon.png" />
+	  <None Remove="Resources\Icons\musicicon.png" />
+	  <None Remove="Resources\Icons\playlisticon.png" />
 	  <None Remove="Resources\Images\bgDJRegLog.jpg" />
 	  <None Remove="Resources\Images\bgHome.jpg" />
 	  <None Remove="Resources\Images\bgUserProfile.jpg" />
@@ -91,10 +96,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Include="Resources\Icons\homeicon.png" />
+	  <MauiImage Include="Resources\Icons\mipicon.png" />
+	  <MauiImage Include="Resources\Icons\moneyicon.png" />
+	  <MauiImage Include="Resources\Icons\musicicon.png" />
+	  <MauiImage Include="Resources\Icons\playlisticon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiSplashScreen Include="Resources\Splash\splashscreen.png" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Microcharts" Version="0.9.5.9" />
 		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.4" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
@@ -112,6 +126,7 @@
 		<PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.21" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="2.88.8" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -189,5 +189,31 @@ namespace PayAndPlayMAUI.Services
                 return false;
             }
         }
+
+        public async Task<PedidoModel> LevantarSaldo(PedidoModel pedido)
+        {
+            try
+            {
+                string endpoint = $"Pedidos/LevantarSaldo";
+
+                string pedidoInfoAsJson = JsonConvert.SerializeObject(pedido);
+
+                StringContent pedidoStringContent = new StringContent(pedidoInfoAsJson, Encoding.UTF8, "application/json");
+
+                this.response = await client.PostAsync(endpoint, pedidoStringContent);
+
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return await Task.FromResult(pedido);
+                }
+
+                return await Task.FromResult(new PedidoModel());
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        } 
     }
 }

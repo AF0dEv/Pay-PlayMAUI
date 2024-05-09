@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PayAndPlayMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+dd97af93d47d83584b9d36f659ae7c871d4bcc06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bf3652e306361db7b57bace95df4b64e054e1bbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("PayAndPlayMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PayAndPlayMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

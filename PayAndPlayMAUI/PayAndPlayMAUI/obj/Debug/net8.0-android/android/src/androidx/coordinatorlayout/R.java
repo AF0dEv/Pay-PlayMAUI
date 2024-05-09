@@ -9,14 +9,14 @@ package androidx.coordinatorlayout;
 public final class R {
 	public static final class attr {
 		public static final int coordinatorLayoutStyle = 0x7f03014d;
-		public static final int keylines = 0x7f03026b;
-		public static final int layout_anchor = 0x7f030277;
-		public static final int layout_anchorGravity = 0x7f030278;
-		public static final int layout_behavior = 0x7f030279;
-		public static final int layout_dodgeInsetEdges = 0x7f0302aa;
-		public static final int layout_insetEdge = 0x7f0302b4;
-		public static final int layout_keyline = 0x7f0302b5;
-		public static final int statusBarBackground = 0x7f03040e;
+		public static final int keylines = 0x7f03026c;
+		public static final int layout_anchor = 0x7f030278;
+		public static final int layout_anchorGravity = 0x7f030279;
+		public static final int layout_behavior = 0x7f03027a;
+		public static final int layout_dodgeInsetEdges = 0x7f0302ab;
+		public static final int layout_insetEdge = 0x7f0302b5;
+		public static final int layout_keyline = 0x7f0302b6;
+		public static final int statusBarBackground = 0x7f03040f;
 	}
 	public static final class id {
 		public static final int bottom = 0x7f080061;
@@ -31,10 +31,10 @@ public final class R {
 		public static final int Widget_Support_CoordinatorLayout = 0x7f100458;
 	}
 	public static final class styleable {
-		public static final int[] CoordinatorLayout = new int[] { 0x7f03026b, 0x7f03040e };
+		public static final int[] CoordinatorLayout = new int[] { 0x7f03026c, 0x7f03040f };
 		public static final int CoordinatorLayout_keylines = 0;
 		public static final int CoordinatorLayout_statusBarBackground = 1;
-		public static final int[] CoordinatorLayout_Layout = new int[] { 0x010100b3, 0x7f030277, 0x7f030278, 0x7f030279, 0x7f0302aa, 0x7f0302b4, 0x7f0302b5 };
+		public static final int[] CoordinatorLayout_Layout = new int[] { 0x010100b3, 0x7f030278, 0x7f030279, 0x7f03027a, 0x7f0302ab, 0x7f0302b5, 0x7f0302b6 };
 		public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
 		public static final int CoordinatorLayout_Layout_layout_anchor = 1;
 		public static final int CoordinatorLayout_Layout_layout_anchorGravity = 2;

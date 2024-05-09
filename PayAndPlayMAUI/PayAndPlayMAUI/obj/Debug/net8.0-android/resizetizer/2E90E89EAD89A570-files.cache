@@ -5,12 +5,17 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\bguserreglog.jpg
 obj\Debug\net8.0-android\resizetizer\r\drawable\confirmpadlock.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\email.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\hide.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\homeicon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\loginicon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\maresvivas.jpeg
+obj\Debug\net8.0-android\resizetizer\r\drawable\mipicon.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\moneyicon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\msudo.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\musicicon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\nosalive.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\novaera.jpg
 obj\Debug\net8.0-android\resizetizer\r\drawable\padlock.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\playlisticon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\rockinrio.jpg
 obj\Debug\net8.0-android\resizetizer\r\drawable\rollingloud.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\user.png
