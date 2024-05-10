@@ -150,6 +150,8 @@ public partial class ProfileDjPage : ContentPage
 
         decimal ganhos = await _listService.ListarGanhosMes(month, DjId);
 
+        if (ganhos > 0) 
+        { 
         List<ChartEntry> entries = new List<ChartEntry>
         {
             new ChartEntry((float)ganhos)
@@ -173,6 +175,11 @@ public partial class ProfileDjPage : ContentPage
         };
 
         ChartMes.IsVisible = true;
+        }
+        else
+        {
+            DisplayAlert("Erro", "Não existem ganhos para o mês selecionado", "OK");
+        }
     }
 
 
@@ -230,24 +237,32 @@ public partial class ProfileDjPage : ContentPage
         int DjId = Preferences.Get("ID", 0);
 
         Dictionary<string, decimal> ganhosPeriodo = await _listService.ListarGanhosPeriodo(dataInicio, dataFinal, DjId);
-        
-        List<ChartEntry> entries = ganhosPeriodo.Select(g =>
-        new ChartEntry((float)g.Value)
+
+        if (ganhosPeriodo.Count > 0)
         {
-            ValueLabelColor = SKColor.Parse("#38BD2F"),
-            Label = g.Key,
-            ValueLabel = g.Value.ToString(),
-            Color = SKColor.Parse("#38BD2F"),
-        }).ToList();
-        
-        ChartPeriodo.Chart = new BarChart
+            List<ChartEntry> entries = ganhosPeriodo.Select(g =>
+                new ChartEntry((float)g.Value)
+                {
+                    ValueLabelColor = SKColor.Parse("#38BD2F"),
+                    Label = g.Key,
+                    ValueLabel = g.Value.ToString(),
+                    Color = SKColor.Parse("#38BD2F"),
+                }).ToList();
+
+            ChartPeriodo.Chart = new BarChart
+            {
+                Entries = entries,
+                BackgroundColor = SKColors.Transparent,
+                LabelTextSize = 50,
+                ValueLabelOrientation = Orientation.Horizontal,
+                LabelOrientation = Orientation.Horizontal,
+                Margin = 50,
+            };
+        }
+        else
         {
-            Entries = entries,
-            BackgroundColor = SKColors.Transparent,
-            LabelTextSize = 50,
-            ValueLabelOrientation = Orientation.Horizontal,
-            LabelOrientation = Orientation.Horizontal,
-            Margin = 50,
-        };
+            DisplayAlert("Erro", "Não existem ganhos para o periodo selecionado", "OK");
+        }
+
     }
 }

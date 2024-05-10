@@ -12,12 +12,12 @@
             <RowDefinition Height="300"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="137.13"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="137.13">
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*">
             </ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Label Grid.Row="0" Grid.Column="1" Text="I AM..."  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="50" FontAttributes="Bold" FontAutoScalingEnabled="True"></Label>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Text="Pay and Play" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="50" FontAttributes="Bold"></Label>
 
         <StackLayout Grid.Row="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center">
             <Label Text="DJ" FontSize="50" FontAttributes="Bold" FontAutoScalingEnabled="True" HorizontalOptions="Center" />

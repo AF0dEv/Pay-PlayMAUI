@@ -6,7 +6,7 @@
              Shell.NavBarIsVisible="False"
              Title="Profile ">
 
-    <!-- Top Bar (Grid) -->
+    <!-- Page Grid (Separate the top and bottom bar from the main content) -->
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -14,6 +14,7 @@
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
+        <!-- Top Bar (Grid) -->
         <Grid Grid.Row="0" BackgroundColor="LightGrey">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>

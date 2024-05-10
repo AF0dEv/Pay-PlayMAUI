@@ -26,17 +26,26 @@
                 <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
                     <Image Source="user.png" HeightRequest="20" WidthRequest="20"/>
                 </Frame>
-                <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" HorizontalOptions="FillAndExpand">
-                    <Entry x:Name="txtEmail" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="E-mail" Keyboard="Email" />
-                </Frame>
+                <StackLayout>
+                    <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" WidthRequest="250" HorizontalOptions="FillAndExpand">
+                        <Entry x:Name="txtEmail" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Email"  Keyboard="Email"/>
+                    </Frame>
+                    <Label x:Name="lblEmail" TextColor="Red" TranslationY="15" IsVisible="False"/>
+                </StackLayout>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal">
-                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="55" TranslationX="-5" WidthRequest="55" CornerRadius="25">
                     <Image Source="padlock.png" HeightRequest="20" WidthRequest="20"/>
                 </Frame>
-                <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" HorizontalOptions="FillAndExpand">
-                    <Entry x:Name="txtPassword" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" IsPassword="True"/>
+                <StackLayout>
+                    <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" WidthRequest="250" TranslationY="7" HorizontalOptions="FillAndExpand">
+                        <Entry x:Name="txtPassword" Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Password" IsPassword="True"/>
+                    </Frame>
+                    <Label x:Name="lblPassword" TextColor="Red" TranslationY="15" IsVisible="False"/>
+                </StackLayout>
+                <Frame ZIndex="1" HasShadow="True" TranslationX="5" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
+                    <ImageButton Source="hide.png" HeightRequest="25" WidthRequest="25" Clicked="ImageButton_Clicked"></ImageButton>
                 </Frame>
             </StackLayout>
 

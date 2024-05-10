@@ -1,12 +1,103 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mc="clr-namespace:PayAndPlayMAUI.MicroChart"
              x:Class="PayAndPlayMAUI.Views.USER.ProfileUserPage"
+             Shell.NavBarIsVisible="False"
              Title="Profile User">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    
+    <!-- Page Grid (Separate the top and bottom bar from the main content) -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <!-- Top Bar (Grid) -->
+        <Grid Grid.Row="0" BackgroundColor="LightGrey">
+            <Label x:Name="lblProfile" TranslationX="10" FontAttributes="Bold" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+        </Grid>
+
+        <!-- Main Content (Scroll View)-->
+        <ScrollView Grid.Row="1">
+            <StackLayout>
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Grid.Row="1" Width="*" />
+                            <ColumnDefinition Grid.Row="1" Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label x:Name="lblGanhos" Text="GASTOS" TextColor="Green" FontSize="25" HorizontalOptions="CenterAndExpand" Grid.Row="0" Grid.ColumnSpan="2" Margin="0, 25, 0, 0"/>
+
+                        <RadioButton x:Name="rbtMes" GroupName="chartType" Content="Gastos Por DJ" IsChecked="False" Grid.Row="1" Grid.Column="0" CheckedChanged="rbtMes_CheckedChanged"/>
+                        <RadioButton x:Name="rbtPeriodo" GroupName="chartType" Content="Gastos Por Periodo" IsChecked="False" HorizontalOptions="EndAndExpand" Margin="0,0,10,0" CheckedChanged="rbtPeriodo_CheckedChanged" Grid.Row="1" Grid.Column="1"/>
+
+                        <Label x:Name="lblMes" Margin="0,30,0,0" FontAttributes="Bold" FontSize="20" Text="Escolha o Mês" IsVisible="Collapse" Grid.Row="2" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"/>
+                        <DatePicker x:Name="dpMes" Format="MMMM yyyy" IsVisible="Collapse" HorizontalOptions="CenterAndExpand" DateSelected="dpMes_DateSelected" Grid.Row="3" Grid.ColumnSpan="2"/>
+                    </Grid>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label x:Name="lblMesInicial" Margin="50,30,0,0" FontAttributes="Bold" FontSize="20" Text="Mês Inicial" IsVisible="Collapse" Grid.Row="0" Grid.Column="0"/>
+                        <Label x:Name="lblMesFinal" Margin="50,30,0,0" FontAttributes="Bold" FontSize="20" Text="Mês Final" Grid.Row="0" IsVisible="Collapse" Grid.Column="1"/>
+
+                        <DatePicker x:Name="dpMesInicio" Format="MMMM yyyy" IsVisible="Collapse" Grid.Row="1" Grid.Column="0"/>
+                        <DatePicker x:Name="dpMesFinal" Format="MMMM yyyy" IsVisible="Collapse" Grid.Row="1" Grid.Column="1"/>
+
+                        <Button x:Name="btnMostrarGanhos" IsVisible="Collapse" Clicked="btnMostrarGanhos_Clicked" Text="Mostrar Ganhos" Grid.Row="2" Grid.ColumnSpan="2" WidthRequest="150" CornerRadius="25"/>
+                    </Grid>
+
+                    <Grid x:Name="gridChart">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <mc:ChartView x:Name="ChartMes"
+                                      HeightRequest="300"
+                                      Grid.Row="0"
+                                      VerticalOptions="FillAndExpand" 
+                                      HorizontalOptions="FillAndExpand"
+                                      IsVisible="Collapse"/>
+
+                        <mc:ChartView x:Name="ChartPeriodo"
+                                      HeightRequest="300"
+                                      Grid.Row="1"
+                                      VerticalOptions="FillAndExpand" 
+                                      HorizontalOptions="FillAndExpand"
+                                      IsVisible="Collapse"/>
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+
+
+        <!-- Bottom bar (Grid) -->
+        <Grid Grid.Row="2" BackgroundColor="LightGray">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+           
+            <ImageButton x:Name="btnHomeIcon" Source="Resources/Icons/homeicon.png" Opacity="0.5" HeightRequest="45" Grid.Column="2" Clicked="btnHomeIcon_Clicked"/>
+            <ImageButton x:Name="btnUserMusicIcon" Source="Resources/Icons/usermusicicon.png" Opacity="0.5" HeightRequest="45" Grid.Column="0" Clicked="btnUserMusicIcon_Clicked"/>
+        </Grid>
+    </Grid>
 </ContentPage>

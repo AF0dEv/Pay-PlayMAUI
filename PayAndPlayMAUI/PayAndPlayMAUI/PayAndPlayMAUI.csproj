@@ -76,6 +76,7 @@
 	  <None Remove="Resources\Icons\moneyicon.png" />
 	  <None Remove="Resources\Icons\musicicon.png" />
 	  <None Remove="Resources\Icons\playlisticon.png" />
+	  <None Remove="Resources\Icons\usermusicicon.png" />
 	  <None Remove="Resources\Images\bgDJRegLog.jpg" />
 	  <None Remove="Resources\Images\bgHome.jpg" />
 	  <None Remove="Resources\Images\bgUserProfile.jpg" />
@@ -101,6 +102,7 @@
 	  <MauiImage Include="Resources\Icons\moneyicon.png" />
 	  <MauiImage Include="Resources\Icons\musicicon.png" />
 	  <MauiImage Include="Resources\Icons\playlisticon.png" />
+	  <MauiImage Include="Resources\Icons\usermusicicon.png" />
 	</ItemGroup>
 
 	<ItemGroup>

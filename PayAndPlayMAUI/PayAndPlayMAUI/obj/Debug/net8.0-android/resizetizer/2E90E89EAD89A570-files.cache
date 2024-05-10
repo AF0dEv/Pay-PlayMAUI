@@ -19,6 +19,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\playlisticon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\rockinrio.jpg
 obj\Debug\net8.0-android\resizetizer\r\drawable\rollingloud.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\user.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\usermusicicon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png

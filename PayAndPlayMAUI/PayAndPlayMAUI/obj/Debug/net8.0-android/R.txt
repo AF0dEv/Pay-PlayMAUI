@@ -3105,6 +3105,7 @@ int drawable test_level_drawable 0x7f0700f8
 int drawable tooltip_frame_dark 0x7f0700f9
 int drawable tooltip_frame_light 0x7f0700fa
 int drawable user 0x7f0700fb
+int drawable usermusicicon 0x7f0700fc
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002

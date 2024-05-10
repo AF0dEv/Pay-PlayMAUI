@@ -14,16 +14,31 @@ public partial class LoginDjPage : ContentPage
         _djService = new DJsService();
     }
 
-    private bool ValidateInput()
+    private async Task<bool> ValidateInput()
     {
         if (string.IsNullOrEmpty(txtEmail.Text))
         {
-            DisplayAlert("Erro", "Informe o e-mail", "OK");
+
+            Vibration.Vibrate();
+            lblEmail.IsVisible = true;
+            while (lblEmail.IsVisible)
+            {
+                lblEmail.Text = "Introduza Email !";
+                await Task.Delay(2000); // Delay 2s
+                lblEmail.IsVisible = false;
+            }
             return false;
         }
         if (string.IsNullOrEmpty(txtPassword.Text))
         {
-            DisplayAlert("Erro", "Informe a senha", "OK");
+            Vibration.Vibrate();
+            lblPassword.IsVisible = true;
+            while (lblPassword.IsVisible)
+            {
+                lblPassword.Text = "Introduza Password !";
+                await Task.Delay(2000); // Delay 2s
+                lblPassword.IsVisible = false;
+            }
             return false;
         }
         return true;
@@ -36,7 +51,7 @@ public partial class LoginDjPage : ContentPage
 
     private async void btnLogin_Clicked_1(object sender, EventArgs e)
     {
-        if (ValidateInput())
+        if (await ValidateInput())
         {
             string email = txtEmail.Text;
             string password = txtPassword.Text;
@@ -71,5 +86,10 @@ public partial class LoginDjPage : ContentPage
                 loadingIndicator.IsVisible = false;
             }
         }
+    }
+
+    private void ImageButton_Clicked(object sender, EventArgs e)
+    {
+        txtPassword.IsPassword = !txtPassword.IsPassword;
     }
 }
