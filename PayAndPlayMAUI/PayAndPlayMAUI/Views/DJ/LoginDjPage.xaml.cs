@@ -24,8 +24,7 @@ public partial class LoginDjPage : ContentPage
             while (lblEmail.IsVisible)
             {
                 lblEmail.Text = "Introduza Email !";
-                await Task.Delay(2000); // Delay 2s
-                lblEmail.IsVisible = false;
+                await Task.Delay(2000).ContinueWith(t => lblEmail.IsVisible = false);
             }
             return false;
         }
@@ -36,8 +35,7 @@ public partial class LoginDjPage : ContentPage
             while (lblPassword.IsVisible)
             {
                 lblPassword.Text = "Introduza Password !";
-                await Task.Delay(2000); // Delay 2s
-                lblPassword.IsVisible = false;
+                await Task.Delay(2000).ContinueWith(t => lblPassword.IsVisible = false);
             }
             return false;
         }
@@ -46,7 +44,7 @@ public partial class LoginDjPage : ContentPage
 
     private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(RegisterDjPage));
+        await Shell.Current.GoToAsync(nameof(RegisterDjPage));   
     }
 
     private async void btnLogin_Clicked_1(object sender, EventArgs e)
@@ -81,7 +79,7 @@ public partial class LoginDjPage : ContentPage
             else
             {
                 txtPassword.Text = string.Empty;
-                DisplayAlert("Erro", "Credenciais Erradas ou nao Existentes", "OK");
+                await DisplayAlert("Erro", "Credenciais Erradas ou nao Existentes", "OK");
                 loadingIndicator.IsRunning = false;
                 loadingIndicator.IsVisible = false;
             }

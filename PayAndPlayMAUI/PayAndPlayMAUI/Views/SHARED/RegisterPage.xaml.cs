@@ -12,13 +12,11 @@ public partial class RegisterPage : ContentPage
 
     private void ImageButton_Clicked(object sender, EventArgs e)
     {
-        var nextPage = new RegisterDjPage();
-        Navigation.PushModalAsync(nextPage);
+        Shell.Current.GoToAsync($"//{nameof(RegisterDjPage)}");
     }
 
     private void ImageButton_Clicked_1(object sender, EventArgs e)
     {
-        var nextPage = new RegisterUserPage();
-        Navigation.PushModalAsync(nextPage);
+        Shell.Current.GoToAsync($"//{nameof(RegisterUserPage)}");
     }
 }

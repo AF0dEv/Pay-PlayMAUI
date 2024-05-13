@@ -12,7 +12,7 @@
         // Navigation Property
         public virtual DjModel? DJ { get; set; }
 
-        //// Navigation Properties
+        ////Navigation Properties
         //public virtual ICollection<MusicaInPlayList>? MusicasInPlayLists { get; set; }
     }
 }

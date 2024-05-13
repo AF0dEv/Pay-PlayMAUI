@@ -28,13 +28,17 @@ namespace PayAndPlayMAUI.Services
 
             //this.response = new HttpResponseMessage();
 
+
             // DEPOIS
+
             // IEFP
             this.baseUrl = DeviceInfo.Platform ==
                 DevicePlatform.Android ? "http://10.30.16.17:8000/api/" : "http://localhost:8000/api/";
+
             //// Home
             //this.baseUrl = DeviceInfo.Platform ==
             //    DevicePlatform.Android ? "http://192.168.1.76:8000/api/" : "http://localhost:8000/api/";
+
             this.client = new HttpClient { BaseAddress = new Uri(this.baseUrl) };
             this.client.Timeout = TimeSpan.FromSeconds(60);
             this.response = new HttpResponseMessage();

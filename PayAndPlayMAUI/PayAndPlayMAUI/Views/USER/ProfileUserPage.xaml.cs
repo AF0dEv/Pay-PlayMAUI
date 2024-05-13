@@ -55,7 +55,7 @@ public partial class ProfileUserPage : ContentPage
         }
         else
         {
-            DisplayAlert("Erro", "Não existem gastos para o periodo selecionado", "OK");
+            await DisplayAlert("Erro", "Não existem gastos para o periodo selecionado", "OK");
         }
     }
 

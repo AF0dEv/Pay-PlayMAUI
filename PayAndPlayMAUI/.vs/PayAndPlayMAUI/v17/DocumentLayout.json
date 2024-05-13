@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\user\\profileuserpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\user\\profileuserpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\payandplaymaui\\views\\dj\\playlists\\playlistsdjpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\playlists\\playlistsdjpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\dj\\profiledjpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\profiledjpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\dj\\playlists\\playlistsdjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\playlists\\playlistsdjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\user\\profileuserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\user\\profileuserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\dj\\logindjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\logindjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\payandplaymaui\\views\\dj\\profiledjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\profiledjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\dj\\playlists\\editplaylistsdjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\playlists\\editplaylistsdjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\dj\\playlists\\editplaylistsdjpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\playlists\\editplaylistsdjpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\dj\\playlists\\createplaylistsdjpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\playlists\\createplaylistsdjpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,64 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 328,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProfileDjPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\ProfileDjPage.xaml.cs",
-              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\ProfileDjPage.xaml.cs",
-              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\ProfileDjPage.xaml.cs",
-              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\ProfileDjPage.xaml.cs",
-              "ViewState": "AQIAAOIAAAAAAAAAAAAswJgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T09:04:28.132Z",
+              "DocumentIndex": 3,
+              "Title": "EditPlayListsDjPage.xaml",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PlayLists\\EditPlayListsDjPage.xaml",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\PlayLists\\EditPlayListsDjPage.xaml",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PlayLists\\EditPlayListsDjPage.xaml",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\PlayLists\\EditPlayListsDjPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T13:10:43.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProfileDjPage.xaml",
-              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\ProfileDjPage.xaml",
-              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\ProfileDjPage.xaml",
-              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\ProfileDjPage.xaml",
-              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\ProfileDjPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "PlayListsDjPage.xaml",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PlayLists\\PlayListsDjPage.xaml",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\PlayLists\\PlayListsDjPage.xaml",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PlayLists\\PlayListsDjPage.xaml",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\PlayLists\\PlayListsDjPage.xaml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-09T12:47:03.965Z",
+              "WhenOpened": "2024-05-13T12:45:32.944Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 320,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditPlayListsDjPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PlayLists\\EditPlayListsDjPage.xaml.cs",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\PlayLists\\EditPlayListsDjPage.xaml.cs",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PlayLists\\EditPlayListsDjPage.xaml.cs",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\PlayLists\\EditPlayListsDjPage.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T12:24:49.684Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProfileUserPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\ProfileUserPage.xaml.cs",
-              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\USER\\ProfileUserPage.xaml.cs",
-              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\ProfileUserPage.xaml.cs",
-              "RelativeToolTip": "PayAndPlayMAUI\\Views\\USER\\ProfileUserPage.xaml.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDkAAABYAAAA",
+              "Title": "PlayListsDjPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PlayLists\\PlayListsDjPage.xaml.cs",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\PlayLists\\PlayListsDjPage.xaml.cs",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PlayLists\\PlayListsDjPage.xaml.cs",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\PlayLists\\PlayListsDjPage.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T13:53:13.947Z",
+              "WhenOpened": "2024-05-10T15:19:31.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProfileUserPage.xaml",
-              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\ProfileUserPage.xaml",
-              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\USER\\ProfileUserPage.xaml",
-              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\ProfileUserPage.xaml",
-              "RelativeToolTip": "PayAndPlayMAUI\\Views\\USER\\ProfileUserPage.xaml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAABiAAAA",
+              "Title": "LoginDjPage.xaml",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\LoginDjPage.xaml",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\LoginDjPage.xaml",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\LoginDjPage.xaml",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\LoginDjPage.xaml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADQAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-10T13:53:04.73Z",
+              "WhenOpened": "2024-05-13T13:31:35.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreatePlayListsDjPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PlayLists\\CreatePlayListsDjPage.xaml.cs",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\PlayLists\\CreatePlayListsDjPage.xaml.cs",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PlayLists\\CreatePlayListsDjPage.xaml.cs",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\PlayLists\\CreatePlayListsDjPage.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAqwC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:58:33.426Z",
               "EditorCaption": ""
             }
           ]

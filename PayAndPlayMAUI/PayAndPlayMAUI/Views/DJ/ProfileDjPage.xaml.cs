@@ -178,7 +178,7 @@ public partial class ProfileDjPage : ContentPage
         }
         else
         {
-            DisplayAlert("Erro", "Não existem ganhos para o mês selecionado", "OK");
+            await DisplayAlert("Erro", "Não existem ganhos para o mês selecionado", "OK");
         }
     }
 
@@ -214,17 +214,17 @@ public partial class ProfileDjPage : ContentPage
             {
                 decimal saldoNovo = await _listService.CalculoSaldoDJ(DjId);
                 lblSaldo.Text = saldoNovo.ToString() + "$";
-                DisplayAlert("Sucesso", "Levantamento Efetuado Com Sucesso", "OK");
+                await DisplayAlert("Sucesso", "Levantamento Efetuado Com Sucesso", "OK");
             }
             else
             {
-                DisplayAlert("Erro", "Levantamento Não Efetuado", "OK");
+                await DisplayAlert("Erro", "Levantamento Não Efetuado", "OK");
             }
 
         }
         else
         {
-            DisplayAlert("Erro", "Não tem Saldo Suficiente para Levantar", "Ok");
+            await DisplayAlert("Erro", "Não tem Saldo Suficiente para Levantar", "Ok");
         }
 
     }
@@ -261,7 +261,7 @@ public partial class ProfileDjPage : ContentPage
         }
         else
         {
-            DisplayAlert("Erro", "Não existem ganhos para o periodo selecionado", "OK");
+            await DisplayAlert("Erro", "Não existem ganhos para o periodo selecionado", "OK");
         }
 
     }

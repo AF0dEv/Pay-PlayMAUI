@@ -22,8 +22,7 @@ public partial class RegisterDjPage : ContentPage
             while (lblUserName.IsVisible)
             {
                 lblUserName.Text = "Introduza Username !";
-                await Task.Delay(2000); // Delay 2s
-                lblUserName.IsVisible = false;
+                await Task.Delay(2000).ContinueWith(t => lblUserName.IsVisible = false);
             }
             return false;
         }
@@ -46,8 +45,7 @@ public partial class RegisterDjPage : ContentPage
             while (lblPassword.IsVisible)
             {
                 lblPassword.Text = "Introduza Password !";
-                await Task.Delay(2000); // Delay 2s
-                lblPassword.IsVisible = false;
+                await Task.Delay(2000).ContinueWith(t => lblPassword.IsVisible = false);
             }
             return false;
         }
@@ -58,8 +56,7 @@ public partial class RegisterDjPage : ContentPage
             while (lblConfirmPassword.IsVisible)
             {
                 lblConfirmPassword.Text = "Confirme Password !";
-                await Task.Delay(2000); // Delay 2s
-                lblConfirmPassword.IsVisible = false;
+                await Task.Delay(2000).ContinueWith(t => lblConfirmPassword.IsVisible = false);
             }
             return false;
         }
@@ -111,9 +108,7 @@ public partial class RegisterDjPage : ContentPage
 
                 txtEmail.Text = string.Empty;
 
-                await Task.Delay(2000);
-
-                lblEmail.IsVisible = false;
+                await Task.Delay(2000).ContinueWith(t => lblEmail.IsVisible = false);
             }
             else
             {

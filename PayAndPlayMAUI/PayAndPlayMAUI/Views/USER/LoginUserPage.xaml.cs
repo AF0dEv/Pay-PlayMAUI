@@ -22,8 +22,7 @@ public partial class LoginUserPage : ContentPage
             while (lblEmail.IsVisible)
             {
                 lblEmail.Text = "Introduza Email !";
-                await Task.Delay(2000); // Delay 2s
-                lblEmail.IsVisible = false;
+                await Task.Delay(2000).ContinueWith(t => lblEmail.IsVisible = false);
             }
             return false;
         }
@@ -34,8 +33,7 @@ public partial class LoginUserPage : ContentPage
             while (lblPassword.IsVisible)
             {
                 lblPassword.Text = "Introduza Password !";
-                await Task.Delay(2000); // Delay 2s
-                lblPassword.IsVisible = false;
+                await Task.Delay(2000).ContinueWith(t => lblPassword.IsVisible = false);
             }
             return false;
         }
