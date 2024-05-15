@@ -46,6 +46,29 @@ namespace PayAndPlayMAUI.Services
                 return null;
             }
         }
+        public async Task<List<MusicaInPlayListModel>> GetMusicasInPlayListsForDj(int DjId)
+        {
+            try
+            {
+                List<MusicaInPlayListModel> mip = new List<MusicaInPlayListModel>();
+
+                string endpoint = $"MusicasInPlayLists/getMusicasInPlayListForDj/{DjId}";
+
+                this.response = await client.GetAsync(endpoint);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    mip = JsonConvert.DeserializeObject<List<MusicaInPlayListModel>>(content);
+                }
+
+                return await Task.FromResult(mip.ToList());
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
         public async Task<MusicaInPlayListModel> GetMusicaInPlayList(int MusicaInPlayListId)
         {
             try
@@ -76,11 +99,14 @@ namespace PayAndPlayMAUI.Services
             {
                 string endpoint = $"MusicasInPlayLists/addMusicaInPlayList";
 
-                string musicaInfoAsJson = JsonConvert.SerializeObject(mip);
+                string mipInfoAsJson = JsonConvert.SerializeObject(mip, new JsonSerializerSettings
+                {
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                });
 
-                StringContent musicaStringContent = new StringContent(musicaInfoAsJson, Encoding.UTF8, "application/json");
+                StringContent mipStringContent = new StringContent(mipInfoAsJson, Encoding.UTF8, "application/json");
 
-                this.response = await client.PostAsync(endpoint, musicaStringContent);
+                this.response = await client.PostAsync(endpoint, mipStringContent);
 
 
                 if (response.IsSuccessStatusCode)
@@ -101,11 +127,14 @@ namespace PayAndPlayMAUI.Services
             {
                 string endpoint = $"MusicasInPlayLists/editMusicaInPlayList/{mip.ID}";
 
-                string musicaInfoAsJson = JsonConvert.SerializeObject(mip);
+                string mipInfoAsJson = JsonConvert.SerializeObject(mip, new JsonSerializerSettings
+                {
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                });
 
-                StringContent musicaStringContent = new StringContent(musicaInfoAsJson, Encoding.UTF8, "application/json");
+                StringContent mipStringContent = new StringContent(mipInfoAsJson, Encoding.UTF8, "application/json");
 
-                this.response = await client.PutAsync(endpoint, musicaStringContent);
+                this.response = await client.PutAsync(endpoint, mipStringContent);
 
                 if (response.IsSuccessStatusCode)
                 {

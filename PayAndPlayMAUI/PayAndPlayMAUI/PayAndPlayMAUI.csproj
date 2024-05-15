@@ -135,9 +135,6 @@
 	  <Compile Update="Views\DJ\MIP\CreateMusicasInPlayListsPage.xaml.cs">
 	    <DependentUpon>CreateMusicasInPlayListsPage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\DJ\MIP\DeleteMusicasInPlayListsPage.xaml.cs">
-	    <DependentUpon>DeleteMusicasInPlayListsPage.xaml</DependentUpon>
-	  </Compile>
 	  <Compile Update="Views\DJ\MIP\EditMusicasInPlayListsPage.xaml.cs">
 	    <DependentUpon>EditMusicasInPlayListsPage.xaml</DependentUpon>
 	  </Compile>
@@ -146,9 +143,6 @@
 	  </Compile>
 	  <Compile Update="Views\DJ\PlayLists\CreatePlayListsDjPage.xaml.cs">
 	    <DependentUpon>CreatePlayListsDjPage.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Views\DJ\PlayLists\DeletePlayListsDjPage.xaml.cs">
-	    <DependentUpon>DeletePlayListsDjPage.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Views\DJ\PlayLists\EditPlayListsDjPage.xaml.cs">
 	    <DependentUpon>EditPlayListsDjPage.xaml</DependentUpon>
@@ -162,9 +156,6 @@
 	  <MauiXaml Update="Views\DJ\MIP\CreateMusicasInPlayListsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\DJ\MIP\DeleteMusicasInPlayListsPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Views\DJ\MIP\EditMusicasInPlayListsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -172,9 +163,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\DJ\Musicas\CreateMusicasDjPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\DJ\Musicas\DeleteMusicasDjPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\DJ\Musicas\EditMusicasDjPage.xaml">
@@ -187,9 +175,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\DJ\PlayLists\CreatePlayListsDjPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\DJ\PlayLists\DeletePlayListsDjPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\DJ\PlayLists\EditPlayListsDjPage.xaml">

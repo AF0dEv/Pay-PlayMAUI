@@ -66,12 +66,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.MI
 build_metadata.AdditionalFiles.TargetPath = Views\DJ\MIP\CreateMusicasInPlayListsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DJ\MIP\CreateMusicasInPlayListsPage.xaml
 
-[C:/Users/afons/OneDrive/Documentos/GitHub/Pay-PlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/MIP/DeleteMusicasInPlayListsPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.MIP.DeleteMusicasInPlayListsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\DJ\MIP\DeleteMusicasInPlayListsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\DJ\MIP\DeleteMusicasInPlayListsPage.xaml
-
 [C:/Users/afons/OneDrive/Documentos/GitHub/Pay-PlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/MIP/EditMusicasInPlayListsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.MIP.EditMusicasInPlayListsPage.xaml
@@ -89,12 +83,6 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.Musicas.CreateMusicasDjPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DJ\Musicas\CreateMusicasDjPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DJ\Musicas\CreateMusicasDjPage.xaml
-
-[C:/Users/afons/OneDrive/Documentos/GitHub/Pay-PlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/Musicas/DeleteMusicasDjPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.Musicas.DeleteMusicasDjPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\DJ\Musicas\DeleteMusicasDjPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\DJ\Musicas\DeleteMusicasDjPage.xaml
 
 [C:/Users/afons/OneDrive/Documentos/GitHub/Pay-PlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/Musicas/EditMusicasDjPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -119,12 +107,6 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.PlayLists.CreatePlayListsDjPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DJ\PlayLists\CreatePlayListsDjPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DJ\PlayLists\CreatePlayListsDjPage.xaml
-
-[C:/Users/afons/OneDrive/Documentos/GitHub/Pay-PlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/PlayLists/DeletePlayListsDjPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PayAndPlayMAUI.Views.DJ.PlayLists.DeletePlayListsDjPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\DJ\PlayLists\DeletePlayListsDjPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\DJ\PlayLists\DeletePlayListsDjPage.xaml
 
 [C:/Users/afons/OneDrive/Documentos/GitHub/Pay-PlayMAUI/PayAndPlayMAUI/PayAndPlayMAUI/Views/DJ/PlayLists/EditPlayListsDjPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

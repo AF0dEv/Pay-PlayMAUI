@@ -169,7 +169,11 @@ namespace PayAndPlayMAUI.Services
             {
                 string endpoint = $"PlayLists/editPlayList/{playlist.ID}";
 
-                string playlistInfoAsJson = JsonConvert.SerializeObject(playlist);
+                string playlistInfoAsJson = JsonConvert.SerializeObject(playlist, new JsonSerializerSettings
+                {
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                });
+
 
                 StringContent playlistStringContent = new StringContent(playlistInfoAsJson, Encoding.UTF8, "application/json");
 

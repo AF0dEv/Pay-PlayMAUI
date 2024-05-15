@@ -15,8 +15,8 @@
         // Navigation Property
         public virtual PerfilModel? Perfil { get; set; }
 
-        //// Navigation Properties
-        //public virtual ICollection<PlayList>? PlayLists { get; set; }
-        //public virtual ICollection<Pedido>? Pedidos { get; set; }
+        // Navigation Properties
+        public virtual ICollection<PlayListModel>? PlayLists { get; set; }
+        public virtual ICollection<PedidoModel>? Pedidos { get; set; }
     }
 }

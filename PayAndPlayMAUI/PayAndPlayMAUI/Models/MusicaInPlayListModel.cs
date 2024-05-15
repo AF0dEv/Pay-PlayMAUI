@@ -13,7 +13,7 @@
         public virtual MusicaModel? Musica { get; set; }
         public virtual PlayListModel? PlayList { get; set; }
 
-        //// Navigation Properties
-        //public virtual ICollection<Pedido>? Pedidos { get; set; }
+        // Navigation Properties
+        public virtual ICollection<PedidoModel>? Pedidos { get; set; }
     }
 }

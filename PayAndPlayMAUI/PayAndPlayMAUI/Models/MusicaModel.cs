@@ -9,7 +9,7 @@
         public int? Duracao { get; set; }
         public decimal Custo { get; set; }
 
-        //// Navigation Properties
-        //public virtual ICollection<MusicaInPlayList>? MusicasInPlayLists { get; set; }
+        // Navigation Properties
+        public virtual ICollection<MusicaInPlayListModel>? MusicasInPlayLists { get; set; }
     }
 }

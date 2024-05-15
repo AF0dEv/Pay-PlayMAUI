@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Maui.ApplicationModel;
+using Newtonsoft.Json;
 using PayAndPlayMAUI.Models;
 using System.Text;
 
@@ -11,13 +12,13 @@ namespace PayAndPlayMAUI.Services
         private string baseUrl { get; set; }
         public PedidosService()
         {
-            //// IEFP
-            //this.baseUrl = DeviceInfo.Platform ==
-            //    DevicePlatform.Android ? "http://10.30.16.17:8000/api/" : "http://localhost:8000/api/";
-
-            // Home
+            // IEFP
             this.baseUrl = DeviceInfo.Platform ==
-                DevicePlatform.Android ? "http://192.168.1.76:8000/api/" : "http://localhost:8000/api/";
+                DevicePlatform.Android ? "http://10.30.16.17:8000/api/" : "http://localhost:8000/api/";
+
+            //// Home
+            //this.baseUrl = DeviceInfo.Platform ==
+            //    DevicePlatform.Android ? "http://192.168.1.76:8000/api/" : "http://localhost:8000/api/";
 
             this.client = new HttpClient { BaseAddress = new Uri(this.baseUrl) };
             this.client.Timeout = TimeSpan.FromSeconds(60);
@@ -96,6 +97,102 @@ namespace PayAndPlayMAUI.Services
                 return null;
             }
         }
+        public async Task<List<PedidoModel>> GetPedidosPagosForDJ(int DjId)
+        {
+            try
+            {
+                List<PedidoModel> pedidos = new List<PedidoModel>();
+
+                string endpoint = $"Pedidos/getPedidosPagosForDJ/{DjId}";
+
+                this.response = await client.GetAsync(endpoint);
+
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    pedidos = JsonConvert.DeserializeObject<List<PedidoModel>>(content);
+                }
+
+                return await Task.FromResult(pedidos.ToList());
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        public async Task<List<PedidoModel>> GetPedidosPendentesForDJ(int DjId)
+        {
+            try
+            {
+                List<PedidoModel> pedidos = new List<PedidoModel>();
+
+                string endpoint = $"Pedidos/getPedidosPendentesForDJ/{DjId}";
+
+                this.response = await client.GetAsync(endpoint);
+
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    pedidos = JsonConvert.DeserializeObject<List<PedidoModel>>(content);
+                }
+
+                return await Task.FromResult(pedidos.ToList());
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        public async Task<List<PedidoModel>> GetPedidosConcluidosForDJ(int DjId)
+        {
+            try
+            {
+                List<PedidoModel> pedidos = new List<PedidoModel>();
+
+                string endpoint = $"Pedidos/getPedidosConcluidosForDJ/{DjId}";
+
+                this.response = await client.GetAsync(endpoint);
+
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    pedidos = JsonConvert.DeserializeObject<List<PedidoModel>>(content);
+                }
+
+                return await Task.FromResult(pedidos.ToList());
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        public async Task<List<PedidoModel>> GetPedidosRecusadosForDJ(int DjId)
+        {
+            try
+            {
+                List<PedidoModel> pedidos = new List<PedidoModel>();
+
+                string endpoint = $"Pedidos/getPedidosRecusadosForDJ/{DjId}";
+
+                this.response = await client.GetAsync(endpoint);
+
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    pedidos = JsonConvert.DeserializeObject<List<PedidoModel>>(content);
+                }
+
+                return await Task.FromResult(pedidos.ToList());
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
         public async Task<List<PedidoModel>> GetPedidosByUtilizador(int UtilizadorId)
         {
             try
@@ -126,7 +223,10 @@ namespace PayAndPlayMAUI.Services
             {
                 string endpoint = $"Pedidos/addPedido";
 
-                string pedidoInfoAsJson = JsonConvert.SerializeObject(pedido);
+                string pedidoInfoAsJson = JsonConvert.SerializeObject(pedido, new JsonSerializerSettings
+                {
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                });
 
                 StringContent pedidoStringContent = new StringContent(pedidoInfoAsJson, Encoding.UTF8, "application/json");
 
@@ -150,8 +250,10 @@ namespace PayAndPlayMAUI.Services
             try
             {
                 string endpoint = $"Pedidos/editPedido/{pedido.ID}";
-
-                string pedidoInfoAsJson = JsonConvert.SerializeObject(pedido);
+                string pedidoInfoAsJson = JsonConvert.SerializeObject(pedido, new JsonSerializerSettings
+                {
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                });
 
                 StringContent pedidoStringContent = new StringContent(pedidoInfoAsJson, Encoding.UTF8, "application/json");
 

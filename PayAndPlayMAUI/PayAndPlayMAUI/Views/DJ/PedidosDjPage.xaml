@@ -2,11 +2,279 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PayAndPlayMAUI.Views.DJ.PedidosDjPage"
+             Shell.NavBarIsVisible="False"
              Title="Pedidos Dj">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <!-- Top Bar (Grid) -->
+        <Grid Grid.Row="0" BackgroundColor="LightGrey">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="lblProfile" 
+                   TranslationX="10" FontAttributes="Bold" 
+                   FontSize="20" VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="StartAndExpand" Grid.Column="0"/>
+
+            <Button x:Name="btnLevantar" TranslationX="-10" 
+                    Text="Levantar" FontAttributes="Bold" FontSize="11" 
+                    HeightRequest="34" WidthRequest="75" CornerRadius="25" 
+                    VerticalOptions="Center" HorizontalOptions="EndAndExpand"
+                    BackgroundColor="Green" Grid.Column="1" Clicked="btnLevantar_Clicked"/>
+
+            <Frame Padding="0" Grid.Column="2" BorderColor="Transparent" BackgroundColor="Transparent">
+                <Label x:Name="lblSaldo" TranslationX="-10" FontAttributes="Bold" VerticalOptions="Center" FontSize="Large" HorizontalOptions="EndAndExpand"></Label>
+            </Frame>
+        </Grid>
+
+        <!-- Main Content (Scroll View)-->
+        <ScrollView Grid.Row="1">
+            <StackLayout>
+                <Label Text="PEDIDOS" TextColor="Purple" FontSize="50" 
+                       FontAttributes="Bold" Margin="0, 10, 0, 0" 
+                       HorizontalOptions="Center" />
+                
+                <StackLayout>
+                    <Label x:Name="lblPendentes" IsVisible="Collapse" 
+                           Text="Pendentes" TextColor="Green" FontSize="35" 
+                           FontAttributes="Bold" Margin="0, 10, 0, 0" HorizontalOptions="Center" />
+
+                    <ActivityIndicator x:Name="loadingIndicator" 
+                                       IsRunning="False" IsVisible="False" 
+                                       HorizontalOptions="Center" Grid.RowSpan="2"/>
+
+                        <CollectionView x:Name="PedidosPendentesCV" 
+                                    Margin="10">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                <Border HeightRequest="200" Padding="10" 
+                                            BackgroundColor="{StaticResource Secondary}"
+                                            StrokeShape="RoundRectangle 10" Stroke="{StaticResource Primary}" 
+                                            StrokeThickness="2">
+                                    <VerticalStackLayout Spacing="10" VerticalOptions="Center"
+                                                             Margin="10">
+                                            <HorizontalStackLayout>
+                                                <Label Text="Data: " FontAttributes="Bold" FontSize="15"/>
+                                                <Label x:Name="lblDataPendentes" Text="{Binding Data}" />
+                                            </HorizontalStackLayout>
+
+                                            <HorizontalStackLayout>
+                                                <Label Text="Custo: " FontSize="20"/>
+                                                <Label x:Name="lblCustoPendentes" Text="{Binding Custo_Pedido}" FontAttributes="Bold" FontSize="20"/>
+                                            </HorizontalStackLayout>
+
+                                            <HorizontalStackLayout>
+                                                <Label Text="Estado: " FontAttributes="Bold" FontSize="15"/>
+                                                <Label x:Name="lblEstadoPendentes" Text="{Binding Estado}" />
+                                            </HorizontalStackLayout>
+
+                                            <HorizontalStackLayout>
+                                                <Label Text="Utilizador: " FontAttributes="Bold" FontSize="15"/>
+                                                <Label x:Name="lblUtilizadorPendentes" Text="{Binding Utilizador.UserName}" />
+                                            </HorizontalStackLayout>
+
+                                            <HorizontalStackLayout>
+                                                <Label Text="Musica: " FontAttributes="Bold" FontSize="15"/>
+                                                <Label x:Name="lblMusicaPendentes" Text="{Binding MusicaInPlayList.Musica.Nome}" />
+                                            </HorizontalStackLayout>
+                                        </VerticalStackLayout>
+                                    </Border>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                </StackLayout>
+                
+                <StackLayout>
+                <Label x:Name="lblPagos" IsVisible="Collapse" Text="Pagos" 
+                       TextColor="Green" FontSize="35" FontAttributes="Bold" 
+                       Margin="0, 10, 0, 0" HorizontalOptions="Center" />
+                    
+                    <CollectionView x:Name="PedidosPagosCV" 
+                                    Margin="10">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Border HeightRequest="250" Padding="10" 
+                                        BackgroundColor="{StaticResource Secondary}"
+                                        StrokeShape="RoundRectangle 10" Stroke="{StaticResource Primary}" 
+                                        StrokeThickness="2">
+
+                                    
+                                    <VerticalStackLayout Spacing="10" VerticalOptions="Center"
+                                                         Margin="10">
+                                        <HorizontalStackLayout>
+                                            <Label Text="Data: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblDataPagos" Text="{Binding Data}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Custo: " FontSize="20"/>
+                                            <Label x:Name="lblCustoPagos" Text="{Binding Custo_Pedido}" FontAttributes="Bold" FontSize="20"/>
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Estado: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblEstadoPagos" Text="{Binding Estado}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Utilizador: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblUtilizadorPagos" Text="{Binding Utilizador.UserName}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Musica: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblMusicaPagos" Text="{Binding MusicaInPlayList.Musica.Nome}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Button x:Name="btnConfirmar"
+                                                    Text="Aceitar Pedido"
+                                                    BackgroundColor="Green"
+                                                    Command="{Binding Path=BindingContext.ConfirmarCommand, Source={x:Reference Name=PedidosPagosCV}}"
+                                                    CommandParameter="{Binding .}"/>
+                                            
+                                            <Button x:Name="btnRecusar"
+                                                    Text="Recusar Pedido" 
+                                                    BackgroundColor="Red"
+                                                    Margin="80,0,0,0"
+                                                    Command="{Binding Path=BindingContext.RecusarCommand, Source={x:Reference Name=PedidosPagosCV}}"
+                                                    CommandParameter="{Binding .}"/>
+                                        </HorizontalStackLayout>
+                                    </VerticalStackLayout>
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+                
+                <StackLayout>
+                    <Label x:Name="lblConcluidos" IsVisible="Collapse" Text="Concluidos" 
+                           TextColor="Green" FontSize="35" FontAttributes="Bold" 
+                           Margin="0, 10, 0, 0" HorizontalOptions="Center" />
+                    
+                    <CollectionView x:Name="PedidosConcluidosCV" 
+                                    Margin="10">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Border HeightRequest="200" Padding="10" 
+                                        BackgroundColor="{StaticResource Secondary}"
+                                        StrokeShape="RoundRectangle 10" Stroke="{StaticResource Primary}" 
+                                        StrokeThickness="2">
+
+                                    <VerticalStackLayout Spacing="10" VerticalOptions="Center"
+                                                         Margin="10">
+                                        <HorizontalStackLayout>
+                                            <Label Text="Data: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblDataConcluidos" Text="{Binding Data}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Custo: " FontSize="20"/>
+                                            <Label x:Name="lblCustoConcluidos" Text="{Binding Custo_Pedido}" FontAttributes="Bold" FontSize="20"/>
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Estado: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblEstadoConcluidos" Text="{Binding Estado}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Utilizador: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblUtilizadorConcluidos" Text="{Binding Utilizador.UserName}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Musica: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblMusicaConcluidos" Text="{Binding MusicaInPlayList.Musica.Nome}" />
+                                        </HorizontalStackLayout>
+                                    </VerticalStackLayout>
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label x:Name="lblRecusados" IsVisible="Collapse" Text="Recusados" TextColor="Green" FontSize="35" FontAttributes="Bold" Margin="0, 10, 0, 0" HorizontalOptions="Center" />
+                    <CollectionView x:Name="PedidosRecusadosCV" 
+                                    Margin="10">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Border HeightRequest="200" Padding="10" 
+                                        BackgroundColor="{StaticResource Secondary}"
+                                        StrokeShape="RoundRectangle 10" Stroke="{StaticResource Primary}" 
+                                        StrokeThickness="2">
+
+                                    <VerticalStackLayout Spacing="10" VerticalOptions="Center"
+                                     Margin="10">
+                                        <HorizontalStackLayout>
+                                            <Label Text="Data: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblDataRecusados" Text="{Binding Data}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Custo: " FontSize="20"/>
+                                            <Label x:Name="lblCustoRecusados" Text="{Binding Custo_Pedido}" FontAttributes="Bold" FontSize="20"/>
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Estado: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblEstadoRecusados" Text="{Binding Estado}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Utilizador: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblUtilizadorRecusados" Text="{Binding Utilizador.UserName}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Musica: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblMusicaRecusados" Text="{Binding MusicaInPlayList.Musica.Nome}" />
+                                        </HorizontalStackLayout>
+                                    </VerticalStackLayout>
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+                
+            </StackLayout>
+        </ScrollView>
+
+
+        <!-- Bottom bar (Grid) -->
+        <Grid Grid.Row="2" BackgroundColor="LightGray">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <ImageButton x:Name="btnMoneyIcon" Source="Resources/Icons/moneyicon.png" 
+                 Opacity="0.5" HeightRequest="40" Grid.Column="0" 
+                 Clicked="btnMoneyIcon_Clicked"/>
+            <ImageButton x:Name="btnMipIcon" Source="Resources/Icons/mipicon.png" 
+                 Opacity="0.5" HeightRequest="40" Grid.Column="1" 
+                 Clicked="btnMipIcon_Clicked"/>
+            <ImageButton x:Name="btnHomeIcon" Source="Resources/Icons/homeicon.png" 
+                 Opacity="0.5" HeightRequest="55" Grid.Column="2" 
+                 Clicked="btnHomeIcon_Clicked"/>
+            <ImageButton x:Name="btnPlaylistIcon" Source="Resources/Icons/playlisticon.png"
+                 Opacity="0.5" HeightRequest="40" Grid.Column="3" 
+                 Clicked="btnPlaylistIcon_Clicked"/>
+            <ImageButton x:Name="btnMusicIcon" Source="Resources/Icons/musicicon.png" 
+                 Opacity="0.5" HeightRequest="40" Grid.Column="4" 
+                 Clicked="btnMusicIcon_Clicked"/>
+        </Grid>
+    </Grid>
 </ContentPage>

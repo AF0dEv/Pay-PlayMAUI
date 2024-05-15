@@ -2,30 +2,141 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PayAndPlayMAUI.Views.DJ.MIP.MusicasInPlayListsPage"
+             Shell.NavBarIsVisible="False"
              Title="Musicas In PlayLists Dj"
              FlowDirection="LeftToRight">
     <Grid>
-        <CollectionView x:Name="MusicasInPlayList"
-                        Margin="10">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
 
-                    <Border HeightRequest="150"
-                            Padding="10"
-                            BackgroundColor="AliceBlue"
-                            StrokeShape="RoundRectangle 10">
+        <!-- Top Bar (Grid) -->
+        <Grid Grid.Row="0" BackgroundColor="LightGrey">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-                        <VerticalStackLayout Spacing="10">
+            <Label x:Name="lblProfile" TranslationX="10" FontAttributes="Bold" FontSize="20" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Grid.Column="0"/>
 
-                            <Label Text="{Binding ID}"></Label>
-                            <Label Text="{Binding Musica.Nome}" 
-                                    FontSize="15" FontAttributes="Bold"></Label>
-                            <Label Text="{Binding PlayList.Nome}"></Label>
-                        </VerticalStackLayout>
-                    </Border>
-                    
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+            <Button x:Name="btnLevantar" 
+                    TranslationX="-10" Text="Levantar" 
+                    FontAttributes="Bold" FontSize="11" HeightRequest="34" 
+                    WidthRequest="75" CornerRadius="25" VerticalOptions="Center" 
+                    HorizontalOptions="EndAndExpand" BackgroundColor="Green" 
+                    Grid.Column="1" Clicked="btnLevantar_Clicked"/>
+
+            <Frame Padding="0" Grid.Column="2" BorderColor="Transparent" BackgroundColor="Transparent">
+                <Label x:Name="lblSaldo" TranslationX="-10" FontAttributes="Bold" VerticalOptions="Center" FontSize="Large" Text="0.00$" HorizontalOptions="EndAndExpand"></Label>
+            </Frame>
+        </Grid>
+
+        <ScrollView Grid.Row="1">
+            <StackLayout>
+                <Label Text="MUSICAS in PLAYLISTS" TextColor="Purple" 
+                       FontSize="35" FontAttributes="Bold" Margin="0, 10, 0, 0" 
+                       HorizontalOptions="Center" />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <ActivityIndicator x:Name="loadingIndicator" IsRunning="False" 
+                                       IsVisible="False" HorizontalOptions="Center" 
+                                       Grid.RowSpan="2"/>
+
+                    <CollectionView x:Name="MipCV"
+                             Margin="10"
+                             Grid.ColumnSpan="2"
+                             SelectionMode="Single">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+
+                                <Border HeightRequest="150"
+                                 Padding="10" BackgroundColor="{StaticResource Secondary}"
+                                 StrokeShape="RoundRectangle 10"
+                                 Stroke="{StaticResource Primary}" StrokeThickness="2">
+
+                                    <VisualStateManager.VisualStateGroups>
+                                        <VisualStateGroup Name="CommonStates">
+                                            <VisualState Name="Normal"/>
+                                            <VisualState Name="Selected">
+                                                <VisualState.Setters>
+                                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+                                                    <Setter Property="Stroke" Value="{StaticResource Secondary}"/>
+                                                    <Setter TargetName="lblId" Property="Label.TextColor" Value="{StaticResource Secondary}"/>
+                                                    <Setter TargetName="lblMusica" Property="Label.TextColor" Value="{StaticResource Secondary}"/>
+                                                    <Setter TargetName="lblPlayList" Property="Label.TextColor" Value="{StaticResource Secondary}"/>
+                                                </VisualState.Setters>
+                                            </VisualState>
+                                        </VisualStateGroup>
+                                    </VisualStateManager.VisualStateGroups>
+
+                                    <VerticalStackLayout Spacing="10" VerticalOptions="Center"
+                                                  Margin="10">
+                                        <HorizontalStackLayout>
+                                            <Label Text="ID: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblId" Text="{Binding ID}" />
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="Musica: " FontSize="20"/>
+                                            <Label x:Name="lblMusica" Text="{Binding Musica.Nome}" FontAttributes="Bold" FontSize="20"/>
+                                        </HorizontalStackLayout>
+
+                                        <HorizontalStackLayout>
+                                            <Label Text="PlayList: " FontAttributes="Bold" FontSize="15"/>
+                                            <Label x:Name="lblPlayList" Text="{Binding PlayList.Nome}" />
+                                        </HorizontalStackLayout>
+
+                                    </VerticalStackLayout>
+                                </Border>
+
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                    <Button Grid.Row="1" x:Name="btnAddMusica" 
+                         Text="Adicionar Musica in PlayList" Clicked="btnAddMusica_Clicked"
+                         Margin="5" Grid.ColumnSpan="2"/>
+
+                    <Grid Grid.Row="2" Margin="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:Name="btnEditar" 
+                             Text="Editar MIP Selecionado"
+                             Clicked="btnEditar_Clicked" Margin="5"/>
+                        <Button x:Name="btnRemover" Text="Remover MIP Selecionado"
+                             Clicked="btnRemover_Clicked" Margin="5" Grid.Column="1"
+                                FontSize="13"/>
+                    </Grid>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Bottom bar (Grid) -->
+        <Grid Grid.Row="2" BackgroundColor="LightGray">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <ImageButton x:Name="btnMoneyIcon" Source="Resources/Icons/moneyicon.png" Opacity="0.5" HeightRequest="40" Grid.Column="0" Clicked="btnMoneyIcon_Clicked"/>
+            <ImageButton x:Name="btnMipIcon" Source="Resources/Icons/mipicon.png" Opacity="0.5" HeightRequest="40" Grid.Column="1" Clicked="btnMipIcon_Clicked"/>
+            <ImageButton x:Name="btnHomeIcon" Source="Resources/Icons/homeicon.png" Opacity="0.5" HeightRequest="55" Grid.Column="2" Clicked="btnHomeIcon_Clicked"/>
+            <ImageButton x:Name="btnPlaylistIcon" Source="Resources/Icons/playlisticon.png" Opacity="0.5" HeightRequest="40" Grid.Column="3" Clicked="btnPlaylistIcon_Clicked"/>
+            <ImageButton x:Name="btnMusicIcon" Source="Resources/Icons/musicicon.png" Opacity="0.5" HeightRequest="40" Grid.Column="4" Clicked="btnMusicIcon_Clicked"/>
+        </Grid>
     </Grid>
 </ContentPage>

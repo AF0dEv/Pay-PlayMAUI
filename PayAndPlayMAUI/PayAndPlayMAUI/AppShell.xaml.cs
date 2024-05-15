@@ -42,17 +42,14 @@ namespace PayAndPlayMAUI
             Routing.RegisterRoute(nameof(MusicasInPlayListsPage), typeof(MusicasInPlayListsPage));
             Routing.RegisterRoute(nameof(CreateMusicasInPlayListsPage), typeof(CreateMusicasInPlayListsPage));
             Routing.RegisterRoute(nameof(EditMusicasInPlayListsPage), typeof(EditMusicasInPlayListsPage));
-            Routing.RegisterRoute(nameof(DeleteMusicasInPlayListsPage), typeof(DeleteMusicasInPlayListsPage));
             // DJ.Musicas
             Routing.RegisterRoute(nameof(MusicasDjPage), typeof(MusicasDjPage));
             Routing.RegisterRoute(nameof(CreateMusicasDjPage), typeof(CreateMusicasDjPage));
             Routing.RegisterRoute(nameof(EditMusicasDjPage), typeof(EditMusicasDjPage));
-            Routing.RegisterRoute(nameof(DeleteMusicasDjPage), typeof(DeleteMusicasDjPage));
             // DJ.PlayLists
             Routing.RegisterRoute(nameof(PlayListsDjPage), typeof(PlayListsDjPage));
             Routing.RegisterRoute(nameof(CreatePlayListsPage), typeof(CreatePlayListsPage));
             Routing.RegisterRoute(nameof(EditPlayListsPage), typeof(EditPlayListsPage));
-            Routing.RegisterRoute(nameof(DeletePlayListsPage), typeof(DeletePlayListsPage));
         }
     }
 }

@@ -42,12 +42,12 @@ public partial class EditPlayListsPage : ContentPage
             this._playListSelecionada.DJId = Preferences.Get("ID", 0);
             PlayListModel plEditada = await this._playListsService.EditPlayList(this._playListSelecionada);
 
-            try
+            if (plEditada != null)
             {
                 await DisplayAlert("Sucesso", "PlayList Editada com Sucesso", "OK");
                 await Shell.Current.GoToAsync(nameof(PlayListsDjPage));
             }
-            catch (Exception)
+            else
             {
                 await DisplayAlert("Erro", "Não Foi Possivel Criar PlayList", "OK");
             }

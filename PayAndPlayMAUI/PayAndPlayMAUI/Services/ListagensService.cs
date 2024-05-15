@@ -151,7 +151,7 @@ namespace PayAndPlayMAUI.Services
 
                 return await Task.FromResult(utilizadorMenosPedidos);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return null;
             }
@@ -203,7 +203,7 @@ namespace PayAndPlayMAUI.Services
             try
             {
                 string utilizadorMaisGastos = null;
-                string endpoint = $"Listagens/ListarUtilizadorMenosGastos/{DjId}";
+                string endpoint = $"Listagens/ListarUtilizadorMaisGastos/{DjId}";
 
                 this.response = await client.GetAsync(endpoint);
 
