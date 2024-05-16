@@ -6,6 +6,7 @@
     the contents are regenerated.
     -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="payandplay.limited.payandplay" android:versionName="1" android:versionCode="1">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.CAMERA" />
@@ -31,6 +32,4 @@
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="payandplay.limited.payandplay.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
-  <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk android:minSdkVersion="21" />
 </manifest>

@@ -21,6 +21,7 @@
           "Microsoft.Maui.Essentials": "8.0.21",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
           "Newtonsoft.Json": "13.0.3",
+          "QRCoder": "1.5.1",
           "SkiaSharp.Views.Maui.Controls": "2.88.8",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
         },
@@ -2068,6 +2069,17 @@
           }
         }
       },
+      "QRCoder/1.5.1": {
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/QRCoder.dll": {
+            "assemblyVersion": "1.5.1.0",
+            "fileVersion": "1.5.1.0"
+          }
+        }
+      },
       "runtime.any.System.Runtime/4.3.0": {
         "dependencies": {
           "System.Private.Uri": "4.3.0"
@@ -3359,6 +3371,13 @@
       "sha512": "sha512-ypnSvEtpNGo48bAWn95J1oHChycCXcevFSbn53fqzLxlXFSZP7dawu8p/7mHAfGufZQSV2sBpW80XQGIfXO8kQ==",
       "path": "nuget.versioning/6.9.1",
       "hashPath": "nuget.versioning.6.9.1.nupkg.sha512"
+    },
+    "QRCoder/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+v8VntytuDw4R1nCNJkSA7SWSizJoQfiByV1+nUjOwrDZEuaxefG73aKuuQjpaGtoZ7qlXpRbK70C23m1h3WLw==",
+      "path": "qrcoder/1.5.1",
+      "hashPath": "qrcoder.1.5.1.nupkg.sha512"
     },
     "runtime.any.System.Runtime/4.3.0": {
       "type": "package",

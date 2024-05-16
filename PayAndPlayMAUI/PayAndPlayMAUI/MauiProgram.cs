@@ -2,6 +2,8 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using SkiaSharp.Views.Maui.Controls.Hosting;
+using ZXing.Net.Maui;
+using ZXing.Net.Maui.Controls;
 
 namespace PayAndPlayMAUI
 {
@@ -13,6 +15,7 @@ namespace PayAndPlayMAUI
             builder
                 .UseMauiApp<App>()
                 .UseSkiaSharp()
+                .UseBarcodeReader()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

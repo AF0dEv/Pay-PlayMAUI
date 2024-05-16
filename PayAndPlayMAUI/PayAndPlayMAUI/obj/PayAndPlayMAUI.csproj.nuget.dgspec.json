@@ -124,9 +124,17 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
             "SkiaSharp.Views.Maui.Controls": {
               "target": "Package",
               "version": "[2.88.8, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.4.0, )"
             }
           },
           "imports": [
@@ -211,9 +219,17 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
             "SkiaSharp.Views.Maui.Controls": {
               "target": "Package",
               "version": "[2.88.8, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.4.0, )"
             }
           },
           "imports": [
@@ -298,9 +314,17 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
             "SkiaSharp.Views.Maui.Controls": {
               "target": "Package",
               "version": "[2.88.8, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.4.0, )"
             }
           },
           "imports": [
@@ -380,9 +404,17 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
             "SkiaSharp.Views.Maui.Controls": {
               "target": "Package",
               "version": "[2.88.8, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.4.0, )"
             }
           },
           "imports": [

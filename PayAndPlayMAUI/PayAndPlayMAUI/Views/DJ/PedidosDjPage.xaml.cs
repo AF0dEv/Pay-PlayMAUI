@@ -290,4 +290,9 @@ public partial class PedidosDjPage : ContentPage
             await DisplayAlert("Erro", "Pedido não foi Selecionado, Contacte Administrador!", "OK");
         }
     }
+
+    private async void btnQRCode_Clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(QRCodePage));
+    }
 }
