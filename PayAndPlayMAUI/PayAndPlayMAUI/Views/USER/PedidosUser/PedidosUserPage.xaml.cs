@@ -6,7 +6,7 @@ namespace PayAndPlayMAUI.Views.USER.PedidosUser;
 public partial class PedidosUserPage : ContentPage
 {
     // Flag to check if the user has navigated to another page (so it doesnt navigate 4 times to the same view)
-    private bool isNavigated { get; set; }
+    private bool isNavigated = false;
     public PedidosUserPage()
 	{
 		InitializeComponent();
@@ -14,6 +14,7 @@ public partial class PedidosUserPage : ContentPage
     protected override void OnAppearing()
     {
         base.OnAppearing();
+        // When View Appears it sets the flag to false
         isNavigated = false;
     }
     private void cameraBarcodeReaderView_BarcodesDetected(object sender, ZXing.Net.Maui.BarcodeDetectionEventArgs e)

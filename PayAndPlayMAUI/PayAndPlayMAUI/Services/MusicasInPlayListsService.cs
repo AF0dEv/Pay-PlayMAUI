@@ -69,6 +69,29 @@ namespace PayAndPlayMAUI.Services
                 return null;
             }
         }
+        public async Task<List<MusicaInPlayListModel>> GetMusicaInPlayListByPlayList(int PlayListId)
+        {
+            try
+            {
+                List<MusicaInPlayListModel> mip = new List<MusicaInPlayListModel>();
+
+                string endpoint = $"MusicasInPlayLists/getMusicasInPlayListByPlayList/{PlayListId}";
+
+                this.response = await client.GetAsync(endpoint);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    mip = JsonConvert.DeserializeObject<List<MusicaInPlayListModel>>(content);
+                }
+
+                return await Task.FromResult(mip.ToList());
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
         public async Task<MusicaInPlayListModel> GetMusicaInPlayList(int MusicaInPlayListId)
         {
             try

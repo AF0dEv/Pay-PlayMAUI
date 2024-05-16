@@ -40,6 +40,246 @@
     <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-100.png">
+      <PackagePath>splashscreenSplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-125.png">
+      <PackagePath>splashscreenSplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-150.png">
+      <PackagePath>splashscreenSplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-200.png">
+      <PackagePath>splashscreenSplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashscreenSplashScreen.scale-400.png">
+      <PackagePath>splashscreenSplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbg.ico">
+      <PackagePath>appiconbg.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLargeTile.scale-100.png">
+      <PackagePath>appiconbgLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLargeTile.scale-125.png">
+      <PackagePath>appiconbgLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLargeTile.scale-150.png">
+      <PackagePath>appiconbgLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLargeTile.scale-200.png">
+      <PackagePath>appiconbgLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLargeTile.scale-400.png">
+      <PackagePath>appiconbgLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconbgLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconbgLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconbgLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconbgLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconbgLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconbgLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconbgLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconbgLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconbgLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconbgLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.scale-100.png">
+      <PackagePath>appiconbgLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.scale-125.png">
+      <PackagePath>appiconbgLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.scale-150.png">
+      <PackagePath>appiconbgLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.scale-200.png">
+      <PackagePath>appiconbgLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.scale-400.png">
+      <PackagePath>appiconbgLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.targetsize-16.png">
+      <PackagePath>appiconbgLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.targetsize-24.png">
+      <PackagePath>appiconbgLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.targetsize-256.png">
+      <PackagePath>appiconbgLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.targetsize-32.png">
+      <PackagePath>appiconbgLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgLogo.targetsize-48.png">
+      <PackagePath>appiconbgLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgMediumTile.scale-100.png">
+      <PackagePath>appiconbgMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgMediumTile.scale-125.png">
+      <PackagePath>appiconbgMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgMediumTile.scale-150.png">
+      <PackagePath>appiconbgMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgMediumTile.scale-200.png">
+      <PackagePath>appiconbgMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgMediumTile.scale-400.png">
+      <PackagePath>appiconbgMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgSmallTile.scale-100.png">
+      <PackagePath>appiconbgSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgSmallTile.scale-125.png">
+      <PackagePath>appiconbgSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgSmallTile.scale-150.png">
+      <PackagePath>appiconbgSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgSmallTile.scale-200.png">
+      <PackagePath>appiconbgSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgSmallTile.scale-400.png">
+      <PackagePath>appiconbgSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgStoreLogo.scale-100.png">
+      <PackagePath>appiconbgStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgStoreLogo.scale-125.png">
+      <PackagePath>appiconbgStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgStoreLogo.scale-150.png">
+      <PackagePath>appiconbgStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgStoreLogo.scale-200.png">
+      <PackagePath>appiconbgStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgStoreLogo.scale-400.png">
+      <PackagePath>appiconbgStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgWideTile.scale-100.png">
+      <PackagePath>appiconbgWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgWideTile.scale-125.png">
+      <PackagePath>appiconbgWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgWideTile.scale-150.png">
+      <PackagePath>appiconbgWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgWideTile.scale-200.png">
+      <PackagePath>appiconbgWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconbgWideTile.scale-400.png">
+      <PackagePath>appiconbgWideTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bgdjreglog.scale-100.jpg">
+      <PackagePath>bgdjreglog.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bghome.scale-100.jpg">
+      <PackagePath>bghome.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bguserprofile.scale-100.jpg">
+      <PackagePath>bguserprofile.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bguserreglog.scale-100.jpg">
+      <PackagePath>bguserreglog.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\confirmpadlock.scale-100.png">
+      <PackagePath>confirmpadlock.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png">
+      <PackagePath>email.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hide.scale-100.png">
+      <PackagePath>hide.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\homeicon.scale-100.png">
+      <PackagePath>homeicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loginicon.scale-100.png">
+      <PackagePath>loginicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\maresvivas.scale-100.jpeg">
+      <PackagePath>maresvivas.scale-100.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mipicon.scale-100.png">
+      <PackagePath>mipicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\moneyicon.scale-100.png">
+      <PackagePath>moneyicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\msudo.scale-100.png">
+      <PackagePath>msudo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\musicicon.scale-100.png">
+      <PackagePath>musicicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nosalive.scale-100.png">
+      <PackagePath>nosalive.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\novaera.scale-100.jpg">
+      <PackagePath>novaera.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\padlock.scale-100.png">
+      <PackagePath>padlock.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\playlisticon.scale-100.png">
+      <PackagePath>playlisticon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rockinrio.scale-100.jpg">
+      <PackagePath>rockinrio.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rollingloud.scale-100.png">
+      <PackagePath>rollingloud.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png">
+      <PackagePath>user.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\OneDrive\Documentos\GitHub\Pay-PlayMAUI\PayAndPlayMAUI\PayAndPlayMAUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\usermusicicon.scale-100.png">
+      <PackagePath>usermusicicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>
@@ -381,6 +621,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\.nuget\packages\system.runtime.caching\6.0.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll">
       <PackagePath>System.Runtime.Caching.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\.nuget\packages\zxing.net\0.16.9\lib\net7.0\zxing.dll">
+      <PackagePath>zxing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\.nuget\packages\zxing.net.maui\0.4.0\lib\net7.0-windows10.0.19041\ZXing.Net.MAUI.dll">
+      <PackagePath>ZXing.Net.MAUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\afons\.nuget\packages\zxing.net.maui.controls\0.4.0\lib\net7.0-windows10.0.19041\ZXing.Net.MAUI.Controls.dll">
+      <PackagePath>ZXing.Net.MAUI.Controls.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\afons\.nuget\packages\humanizer.core.af\2.14.1\lib\net6.0\af\Humanizer.resources.dll">
       <PackagePath>af\Humanizer.resources.dll</PackagePath>

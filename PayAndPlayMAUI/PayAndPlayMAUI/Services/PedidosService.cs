@@ -97,6 +97,29 @@ namespace PayAndPlayMAUI.Services
                 return null;
             }
         }
+        public async Task<List<PedidoModel>> GetPedidosPendentesByUtilizador(int UtilizadorId)
+        {
+            try
+            {
+                List<PedidoModel> pedidos = new List<PedidoModel>();
+
+                string endpoint = $"Pedidos/getPedidosPendentesByUtilizador/{UtilizadorId}";
+
+                this.response = await client.GetAsync(endpoint);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    pedidos = JsonConvert.DeserializeObject<List<PedidoModel>>(content);
+                }
+
+                return await Task.FromResult(pedidos.ToList());
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
         public async Task<List<PedidoModel>> GetPedidosPagosForDJ(int DjId)
         {
             try

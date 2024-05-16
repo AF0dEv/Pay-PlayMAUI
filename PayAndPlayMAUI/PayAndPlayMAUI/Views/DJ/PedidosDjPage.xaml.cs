@@ -43,10 +43,10 @@ public partial class PedidosDjPage : ContentPage
         //this.PedidosConcluidosList = new List<PedidoModel>();
         //this.PedidosRecusadosList = new List<PedidoModel>();
 
-        PedidosPagosCV.BindingContext = this;
+        this.PedidosPagosCV.BindingContext = this;
         // Add Command with the method to accept or refuse the pedido
-        ConfirmarCommand = new Command<PedidoModel>(ConfirmarPedido);
-        RecusarCommand = new Command<PedidoModel>(RecusarPedido);
+        this.ConfirmarCommand = new Command<PedidoModel>(ConfirmarPedido);
+        this.RecusarCommand = new Command<PedidoModel>(RecusarPedido);
 
     }
     protected async override void OnAppearing()
@@ -161,12 +161,9 @@ public partial class PedidosDjPage : ContentPage
                 Data = DateOnly.FromDateTime(DateTime.Now),
                 Estado = "LEVANTAMENTO",
             };
-            PedidoModel? pedidoCriado = new PedidoModel();
 
-            await Task.Run(async () =>
-            {
-                pedidoCriado = await _pedidoService.LevantarSaldo(pedido);
-            });
+            PedidoModel? pedidoCriado = new PedidoModel();
+            pedidoCriado = await _pedidoService.LevantarSaldo(pedido);
 
             if (pedidoCriado != null)
             {
@@ -249,11 +246,8 @@ public partial class PedidosDjPage : ContentPage
             {
                 await DisplayAlert("Pedido Aceite", $"Pedido Musica: {pedidoEditado.MusicaInPlayList.Musica.Nome} Aceite !", "OK");
 
-                decimal saldo = await this._listService.CalculoSaldoDJ(Preferences.Get("ID", 0));
-                lblSaldo.Text = saldo.ToString() + "$";
-
-                // reload the page
-                OnAppearing();
+                await Navigation.PopAsync();
+                await Shell.Current.GoToAsync(nameof(PedidosDjPage));
             }
             else
             {
@@ -276,8 +270,8 @@ public partial class PedidosDjPage : ContentPage
             {
                 await DisplayAlert("Pedido Recusado", $"Pedido Musica: {pedido.MusicaInPlayList.Musica.Nome} Recusado !", "OK");
 
-                // reload the page
-                OnAppearing();
+                await Navigation.PopAsync();
+                await Shell.Current.GoToAsync(nameof(PedidosDjPage));
 
             }
             else

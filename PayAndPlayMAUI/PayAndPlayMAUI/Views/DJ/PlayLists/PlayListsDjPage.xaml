@@ -29,7 +29,8 @@
                 <Label x:Name="lblSaldo" TranslationX="-10" FontAttributes="Bold" VerticalOptions="Center" FontSize="Large" Text="0.00$" HorizontalOptions="EndAndExpand"></Label>
             </Frame>
         </Grid>
-
+        
+        <!-- Main Content (Scroll View)-->
         <ScrollView Grid.Row="1">
             <StackLayout>
                 <Label Text="PLAYLISTS" TextColor="Purple" FontSize="50" FontAttributes="Bold" Margin="0, 10, 0, 0" HorizontalOptions="Center" />

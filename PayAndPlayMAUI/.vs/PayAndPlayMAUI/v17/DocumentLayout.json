@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\user\\pedidosuser\\pedidosuserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\user\\pedidosuser\\pedidosuserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\dj\\pedidosdjpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\pedidosdjpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\dj\\qrcodepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\qrcodepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\dj\\pedidosdjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\dj\\pedidosdjpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\user\\pedidosuser\\mippedidosuserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\user\\pedidosuser\\mippedidosuserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\user\\pedidosuser\\pagamentouserpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\user\\pedidosuser\\pagamentouserpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\services\\pedidosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\services\\pedidosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|c:\\users\\afons\\onedrive\\documentos\\github\\pay-playmaui\\payandplaymaui\\payandplaymaui\\views\\user\\pedidosuser\\pagamentouserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3BE1A2E7-17DA-42BE-9D9C-A790E3C96C02}|PayAndPlayMAUI\\PayAndPlayMAUI.csproj|solutionrelative:payandplaymaui\\views\\user\\pedidosuser\\pagamentouserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +33,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 244,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -27,27 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PedidosUserPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PedidosUserPage.xaml.cs",
-              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PedidosUserPage.xaml.cs",
-              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PedidosUserPage.xaml.cs",
-              "RelativeToolTip": "PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PedidosUserPage.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBAAAAAcAAAA",
+              "Title": "PedidosDjPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PedidosDjPage.xaml.cs",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\PedidosDjPage.xaml.cs",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PedidosDjPage.xaml.cs",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\PedidosDjPage.xaml.cs",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAYwPkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:27:17.198Z",
+              "WhenOpened": "2024-05-16T14:48:50.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "QRCodePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\QRCodePage.xaml.cs",
-              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\QRCodePage.xaml.cs",
-              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\QRCodePage.xaml.cs",
-              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\QRCodePage.xaml.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAkwDEAAAApAAAA",
+              "Title": "PedidosDjPage.xaml",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PedidosDjPage.xaml",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\DJ\\PedidosDjPage.xaml",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\DJ\\PedidosDjPage.xaml",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\DJ\\PedidosDjPage.xaml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T14:48:45.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MIPPedidosUserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\PedidosUser\\MIPPedidosUserPage.xaml",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\USER\\PedidosUser\\MIPPedidosUserPage.xaml",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\PedidosUser\\MIPPedidosUserPage.xaml",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\USER\\PedidosUser\\MIPPedidosUserPage.xaml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T14:44:51.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PagamentoUserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PagamentoUserPage.xaml",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PagamentoUserPage.xaml",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PagamentoUserPage.xaml",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PagamentoUserPage.xaml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAACYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T14:36:16.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidosService.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Services\\PedidosService.cs",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Services\\PedidosService.cs",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Services\\PedidosService.cs",
+              "RelativeToolTip": "PayAndPlayMAUI\\Services\\PedidosService.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAswHMAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T09:39:40.196Z",
+              "WhenOpened": "2024-05-16T13:40:18.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PagamentoUserPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PagamentoUserPage.xaml.cs",
+              "RelativeDocumentMoniker": "PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PagamentoUserPage.xaml.cs",
+              "ToolTip": "C:\\Users\\afons\\OneDrive\\Documentos\\GitHub\\Pay-PlayMAUI\\PayAndPlayMAUI\\PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PagamentoUserPage.xaml.cs",
+              "RelativeToolTip": "PayAndPlayMAUI\\Views\\USER\\PedidosUser\\PagamentoUserPage.xaml.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAA2wH8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T13:34:23.154Z",
               "EditorCaption": ""
             }
           ]
